@@ -1,0 +1,110 @@
+!! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.62.0
+Flutter extension: 3.62.0 (not activated)
+
+App: Visual Studio Code
+Version: 1.76.2
+Platform: win
+
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+
+Logging Categories:
+    FlutterDaemon
+
+Fri May 05 2023 [10:10:54 GMT+0530 (India Standard Time)] Log file started
+[10:10:54 AM] [FlutterDaemon] [Info] Spawning C:\Users\User\Downloads\flutter\bin\flutter.bat with args ["daemon"]
+[10:10:54 AM] [FlutterDaemon] [Info] ..  in C:\Users\User\Downloads\flutter
+[10:10:54 AM] [FlutterDaemon] [Info] ..  with {"toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code"}}
+[10:10:54 AM] [FlutterDaemon] [Info]     PID: 7216
+[10:10:54 AM] [FlutterDaemon] [Info] ==> [{"id":"1","method":"emulator.getEmulators"}]
+[10:10:58 AM] [FlutterDaemon] [Info] <== [{"event":"daemon.connected","params":{"version":"0.6.1","pid":4352}}]
+[10:10:58 AM] [FlutterDaemon] [Info] ==> [{"id":"2","method":"device.enable"}]
+[10:10:58 AM] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"status","message":"Starting device daemon..."}}]
+[10:10:58 AM] [FlutterDaemon] [Info] ==> [{"id":"3","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[10:10:59 AM] [FlutterDaemon] [Info] <== [{"id":"2"}]
+[10:10:59 AM] [FlutterDaemon] [Info] <== [{"id":"3","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[10:10:59 AM] [FlutterDaemon] [Info] ==> [{"id":"4","method":"emulator.getEmulators"}]
+[10:10:59 AM] [FlutterDaemon] [Info] <== [{"id":"1","result":[{"id":"Pixel_3_API_30","name":"Pixel 3 API 30","category":"mobile","platformType":"android"}]}]
+[10:10:59 AM] [FlutterDaemon] [Info] <== [{"id":"4","result":[{"id":"Pixel_3_API_30","name":"Pixel 3 API 30","category":"mobile","platformType":"android"}]}]
+[10:11:01 AM] [FlutterDaemon] [Info] ==> [{"id":"5","method":"emulator.launch","params":{"emulatorId":"Pixel_3_API_30","coldBoot":false}}]
+[10:11:03 AM] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"windows","name":"Windows","platform":"windows-x64","emulator":false,"category":"desktop","platformType":"windows","ephemeral":false,"emulatorId":null,"sdk":"Microsoft Windows [Version 10.0.19044.2728]","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":false,"fastStart":false,"flutterExit":true,"hardwareRendering":true,"startPaused":true}}}]
+[10:11:03 AM] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"chrome","name":"Chrome","platform":"web-javascript","emulator":false,"category":"web","platformType":"web","ephemeral":false,"emulatorId":null,"sdk":"Google Chrome 112.0.5615.86","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":false,"fastStart":false,"flutterExit":false,"hardwareRendering":true,"startPaused":true}}}]
+[10:11:03 AM] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"edge","name":"Edge","platform":"web-javascript","emulator":false,"category":"web","platformType":"web","ephemeral":false,"emulatorId":null,"sdk":"Microsoft Edge 110.0.1587.69","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":false,"fastStart":false,"flutterExit":false,"hardwareRendering":true,"startPaused":true}}}]
+[10:11:05 AM] [FlutterDaemon] [Info] <== [{"id":"5"}]
+[10:11:23 AM] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"emulator-5554","name":"sdk gphone x86","platform":"android-x86","emulator":true,"category":"mobile","platformType":"android","ephemeral":true,"emulatorId":"Pixel_3_API_30","sdk":"Android 11 (API 30)","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":true,"fastStart":true,"flutterExit":true,"hardwareRendering":true,"startPaused":true}}}]
+[10:11:23 AM] [FlutterDaemon] [Info] ==> [{"id":"6","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[10:11:23 AM] [FlutterDaemon] [Info] <== [{"id":"6","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[10:12:40 AM] [FlutterDaemon] [Info] ==> [{"id":"7","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[10:12:40 AM] [FlutterDaemon] [Info] <== [{"id":"7","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[10:12:40 AM] [FlutterDaemon] [Info] ==> [{"id":"8","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[10:12:40 AM] [FlutterDaemon] [Info] <== [{"id":"8","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[10:16:59 AM] [FlutterDaemon] [Info] ==> [{"id":"9","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[10:16:59 AM] [FlutterDaemon] [Info] <== [{"id":"9","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[10:16:59 AM] [FlutterDaemon] [Info] ==> [{"id":"10","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[10:16:59 AM] [FlutterDaemon] [Info] <== [{"id":"10","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[10:21:41 AM] [FlutterDaemon] [Info] ==> [{"id":"11","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[10:21:41 AM] [FlutterDaemon] [Info] <== [{"id":"11","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[10:21:41 AM] [FlutterDaemon] [Info] ==> [{"id":"12","method":"emulator.getEmulators"}]
+[10:21:41 AM] [FlutterDaemon] [Info] <== [{"id":"12","result":[{"id":"Pixel_3_API_30","name":"Pixel 3 API 30","category":"mobile","platformType":"android"}]}]
+[10:21:48 AM] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"error","message":"Error 1 retrieving device properties for sdk gphone x86:"}}]
+[10:21:48 AM] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"error","message":"adb.exe: device 'emulator-5554' not found\r\n"}}]
+[10:21:48 AM] [FlutterDaemon] [Info] <== [{"event":"device.removed","params":{"id":"emulator-5554","name":"sdk gphone x86","platform":"android-arm","emulator":false,"category":"mobile","platformType":"android","ephemeral":true,"emulatorId":null,"sdk":"Android null (API null)","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":true,"fastStart":true,"flutterExit":true,"hardwareRendering":true,"startPaused":true}}}]
+[10:22:11 AM] [FlutterDaemon] [Info] ==> [{"id":"13","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[10:22:11 AM] [FlutterDaemon] [Info] <== [{"id":"13","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[10:22:11 AM] [FlutterDaemon] [Info] ==> [{"id":"14","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[10:22:11 AM] [FlutterDaemon] [Info] <== [{"id":"14","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[10:22:17 AM] [FlutterDaemon] [Info] ==> [{"id":"15","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[10:22:17 AM] [FlutterDaemon] [Info] <== [{"id":"15","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[10:22:17 AM] [FlutterDaemon] [Info] ==> [{"id":"16","method":"emulator.getEmulators"}]
+[10:22:17 AM] [FlutterDaemon] [Info] <== [{"id":"16","result":[{"id":"Pixel_3_API_30","name":"Pixel 3 API 30","category":"mobile","platformType":"android"}]}]
+[10:22:21 AM] [FlutterDaemon] [Info] ==> [{"id":"17","method":"emulator.launch","params":{"emulatorId":"Pixel_3_API_30","coldBoot":true}}]
+[10:22:25 AM] [FlutterDaemon] [Info] <== [{"id":"17"}]
+[10:22:49 AM] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"emulator-5554","name":"sdk gphone x86","platform":"android-x86","emulator":true,"category":"mobile","platformType":"android","ephemeral":true,"emulatorId":"Pixel_3_API_30","sdk":"Android 11 (API 30)","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":true,"fastStart":true,"flutterExit":true,"hardwareRendering":true,"startPaused":true}}}]
+[10:22:49 AM] [FlutterDaemon] [Info] ==> [{"id":"18","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[10:22:49 AM] [FlutterDaemon] [Info] <== [{"id":"18","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[10:24:01 AM] [FlutterDaemon] [Info] ==> [{"id":"19","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[10:24:01 AM] [FlutterDaemon] [Info] <== [{"id":"19","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[10:24:01 AM] [FlutterDaemon] [Info] ==> [{"id":"20","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[10:24:01 AM] [FlutterDaemon] [Info] <== [{"id":"20","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[10:24:05 AM] [FlutterRun] [Error] [Flutter (Pixel 3 API 30)] Waiting for another flutter command to release the startup lock...
+[10:50:50 AM] [FlutterRun] [Error] [Flutter (Pixel 3 API 30)] lib/main.dart:18:19: Error: Couldn't find constructor 'HomeScreen'.
+[10:50:50 AM] [FlutterRun] [Error] [Flutter (Pixel 3 API 30)]       home: const HomeScreen(),
+                  ^^^^^^^^^^
+[12:06:25 PM] [FlutterRun] [Error] [Flutter (Pixel 3 API 30)] lib/main.dart:16:31: Error: The argument type 'Color' can't be assigned to the parameter type 'MaterialColor?'.
+[12:06:25 PM] [FlutterRun] [Error] [Flutter (Pixel 3 API 30)]  - 'Color' is from 'dart:ui'.
+ - 'MaterialColor' is from 'package:flutter/src/material/colors.dart' ('../../Downloads/flutter/packages/flutter/lib/src/material/colors.dart').
+        primarySwatch: Colors.white,
+                              ^
+[12:06:31 PM] [FlutterRun] [Error] [Flutter (Pixel 3 API 30)] lib/main.dart:16:31: Error: The argument type 'Color' can't be assigned to the parameter type 'MaterialColor?'.
+[12:06:31 PM] [FlutterRun] [Error] [Flutter (Pixel 3 API 30)]  - 'Color' is from 'dart:ui'.
+ - 'MaterialColor' is from 'package:flutter/src/material/colors.dart' ('../../Downloads/flutter/packages/flutter/lib/src/material/colors.dart').
+        primarySwatch: Colors.white,
+                              ^
+[1:00:12 PM] [FlutterRun] [Error] [Flutter (Pixel 3 API 30)] No file or variants found for asset: asset.
+[1:01:03 PM] [FlutterRun] [Error] [Flutter (Pixel 3 API 30)] No file or variants found for asset: asset.
+[1:02:53 PM] [FlutterRun] [Error] [Flutter (Pixel 3 API 30)] No file or variants found for asset: asset.
+[1:16:02 PM] [FlutterRun] [Error] [Flutter (Pixel 3 API 30)] No file or variants found for asset: asset.
+[1:20:01 PM] [FlutterRun] [Error] [Flutter (Pixel 3 API 30)] No file or variants found for asset: asset.
+[3:16:45 PM] [FlutterRun] [Error] [Flutter (Pixel 3 API 30)] No file or variants found for asset: asset.
+[8:35:02 PM] [FlutterRun] [Error] [Flutter (Pixel 3 API 30)] Could not update files on device: PathNotFoundException: Cannot open file, path = 'C:\Users\User\Desktop\appcom_task\asset\COPY.jpeg' (OS Error: The system cannot find the file specified.
+, errno = 2)
+[8:43:51 PM] [FlutterDaemon] [Info] ==> [{"id":"21","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[8:43:51 PM] [FlutterDaemon] [Info] <== [{"id":"21","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[8:43:51 PM] [FlutterDaemon] [Info] ==> [{"id":"22","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[8:43:51 PM] [FlutterDaemon] [Info] <== [{"id":"22","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[9:22:36 PM] [FlutterRun] [Error] [Flutter (Pixel 3 API 30)] Could not update files on device: PathNotFoundException: Cannot open file, path = 'C:\Users\User\Desktop\appcom_task\asset\WhatsApp Image 2023-05-05 at 12.03.01 PM.jpeg' (OS Error: The system cannot find the file specified.
+, errno = 2)
+[9:32:47 PM] [FlutterDaemon] [Info] ==> [{"id":"23","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[9:32:47 PM] [FlutterDaemon] [Info] <== [{"id":"23","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[9:32:47 PM] [FlutterDaemon] [Info] ==> [{"id":"24","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[9:32:47 PM] [FlutterDaemon] [Info] <== [{"id":"24","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[9:37:39 PM] [FlutterDaemon] [Info] ==> [{"id":"25","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[9:37:39 PM] [FlutterDaemon] [Info] <== [{"id":"25","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[9:37:39 PM] [FlutterDaemon] [Info] ==> [{"id":"26","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[9:37:39 PM] [FlutterDaemon] [Info] <== [{"id":"26","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[9:38:03 PM] [FlutterDaemon] [Info] ==> [{"id":"27","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[9:38:03 PM] [FlutterDaemon] [Info] <== [{"id":"27","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[9:38:03 PM] [FlutterDaemon] [Info] ==> [{"id":"28","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[9:38:03 PM] [FlutterDaemon] [Info] <== [{"id":"28","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
