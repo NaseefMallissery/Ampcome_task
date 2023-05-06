@@ -1,5 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.appcom_task">
+	    <uses-permission android:name="android.permission.INTERNET"/> 
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+        <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+        <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
    <application
         android:label="appcom_task"
         android:name="${applicationName}"

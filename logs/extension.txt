@@ -1,0 +1,1355 @@
+!! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.62.0
+Flutter extension: 3.62.0 (not activated)
+
+App: Visual Studio Code
+Version: 1.78.0
+Platform: win
+
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+
+Logging Categories:
+    General
+
+Sat May 06 2023 [08:39:04 GMT+0530 (India Standard Time)] Log file started
+[8:39:04 AM] [General] [Info] Searching for SDKs...
+[8:39:04 AM] [General] [Info] Environment PATH:
+[8:39:04 AM] [General] [Info]     C:\Program Files\Common Files\Oracle\Java\javapath
+[8:39:04 AM] [General] [Info]     C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+[8:39:04 AM] [General] [Info]     C:\Windows\system32
+[8:39:04 AM] [General] [Info]     C:\Windows
+[8:39:04 AM] [General] [Info]     C:\Windows\System32\Wbem
+[8:39:04 AM] [General] [Info]     C:\Windows\System32\WindowsPowerShell\v1.0\
+[8:39:04 AM] [General] [Info]     C:\Windows\System32\OpenSSH\
+[8:39:04 AM] [General] [Info]     C:\Program Files\dotnet\
+[8:39:04 AM] [General] [Info]     C:\Program Files\Git\cmd
+[8:39:04 AM] [General] [Info]     C:\Program Files\nodejs\
+[8:39:04 AM] [General] [Info]     C:\Program Files\Git LFS
+[8:39:04 AM] [General] [Info]     C:\Users\User\AppData\Local\Microsoft\WindowsApps
+[8:39:04 AM] [General] [Info]     C:\mingw64\bin
+[8:39:04 AM] [General] [Info]     C:\Users\User\Downloads\flutter\bin
+[8:39:04 AM] [General] [Info]     C:\Users\User\Documents\flutter\bin
+[8:39:04 AM] [General] [Info]     C:\Users\User\.dotnet\tools
+[8:39:04 AM] [General] [Info]     C:\Users\User\AppData\Roaming\npm
+[8:39:04 AM] [General] [Info]     C:\Program Files\Java\jdk-19\bin
+[8:39:04 AM] [General] [Info]     C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin
+[8:39:10 AM] [General] [Info] Took 6074ms to search for projects (5 levels)
+[8:39:10 AM] [General] [Info] Took 27ms to filter out excluded projects (0 exclusion rules)
+[8:39:10 AM] [General] [Info] Found Flutter project at C:\Users\User\Desktop\appcom_task:
+			Mobile? true
+			Web? false
+			Create Trigger? false
+			Flutter Repo? false
+[8:39:10 AM] [General] [Info] Searching for flutter.bat
+[8:39:10 AM] [General] [Info]     Looking for flutter.bat in:
+[8:39:10 AM] [General] [Info]         C:\Users\User\Desktop\appcom_task
+[8:39:10 AM] [General] [Info]         C:\Users\User\Desktop\appcom_task\bin
+[8:39:10 AM] [General] [Info]         C:\Users\User\Downloads\flutter\bin\
+[8:39:10 AM] [General] [Info]         C:\Users\User\Desktop\appcom_task\.flutter
+[8:39:10 AM] [General] [Info]         C:\Users\User\Desktop\appcom_task\.flutter\bin
+[8:39:10 AM] [General] [Info]         C:\Users\User\Desktop\appcom_task\vendor\flutter
+[8:39:10 AM] [General] [Info]         C:\Users\User\Desktop\appcom_task\vendor\flutter\bin
+[8:39:10 AM] [General] [Info]         C:\Users\User\flutter-sdk
+[8:39:10 AM] [General] [Info]         C:\Users\User\flutter-sdk\bin
+[8:39:10 AM] [General] [Info]         /google/flutter
+[8:39:10 AM] [General] [Info]         \google\flutter\bin
+[8:39:10 AM] [General] [Info]         C:\Program Files\Common Files\Oracle\Java\javapath
+[8:39:10 AM] [General] [Info]         C:\Program Files\Common Files\Oracle\Java\javapath\bin
+[8:39:10 AM] [General] [Info]         C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+[8:39:10 AM] [General] [Info]         C:\Program Files (x86)\Common Files\Oracle\Java\javapath\bin
+[8:39:10 AM] [General] [Info]         C:\Windows\system32
+[8:39:10 AM] [General] [Info]         C:\Windows\system32\bin
+[8:39:10 AM] [General] [Info]         C:\Windows
+[8:39:10 AM] [General] [Info]         C:\Windows\bin
+[8:39:10 AM] [General] [Info]         C:\Windows\System32\Wbem
+[8:39:10 AM] [General] [Info]         C:\Windows\System32\Wbem\bin
+[8:39:10 AM] [General] [Info]         C:\Windows\System32\WindowsPowerShell\v1.0\
+[8:39:10 AM] [General] [Info]         C:\Windows\System32\WindowsPowerShell\v1.0\bin
+[8:39:10 AM] [General] [Info]         C:\Windows\System32\OpenSSH\
+[8:39:10 AM] [General] [Info]         C:\Windows\System32\OpenSSH\bin
+[8:39:10 AM] [General] [Info]         C:\Program Files\dotnet\
+[8:39:10 AM] [General] [Info]         C:\Program Files\dotnet\bin
+[8:39:10 AM] [General] [Info]         C:\Program Files\Git\cmd
+[8:39:10 AM] [General] [Info]         C:\Program Files\Git\cmd\bin
+[8:39:10 AM] [General] [Info]         C:\Program Files\nodejs\
+[8:39:10 AM] [General] [Info]         C:\Program Files\nodejs\bin
+[8:39:10 AM] [General] [Info]         C:\Program Files\Git LFS
+[8:39:10 AM] [General] [Info]         C:\Program Files\Git LFS\bin
+[8:39:10 AM] [General] [Info]         C:\Users\User\AppData\Local\Microsoft\WindowsApps
+[8:39:10 AM] [General] [Info]         C:\Users\User\AppData\Local\Microsoft\WindowsApps\bin
+[8:39:10 AM] [General] [Info]         C:\mingw64\bin
+[8:39:10 AM] [General] [Info]         C:\Users\User\Downloads\flutter\bin
+[8:39:10 AM] [General] [Info]         C:\Users\User\Documents\flutter\bin
+[8:39:10 AM] [General] [Info]         C:\Users\User\.dotnet\tools
+[8:39:10 AM] [General] [Info]         C:\Users\User\.dotnet\tools\bin
+[8:39:10 AM] [General] [Info]         C:\Users\User\AppData\Roaming\npm
+[8:39:10 AM] [General] [Info]         C:\Users\User\AppData\Roaming\npm\bin
+[8:39:10 AM] [General] [Info]         C:\Program Files\Java\jdk-19\bin
+[8:39:10 AM] [General] [Info]         C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin
+[8:39:10 AM] [General] [Info]     Found at:
+[8:39:10 AM] [General] [Info]         C:\Users\User\Downloads\flutter\bin\
+[8:39:10 AM] [General] [Info]         C:\Users\User\Downloads\flutter\bin
+[8:39:10 AM] [General] [Info]         C:\Users\User\Documents\flutter\bin
+[8:39:10 AM] [General] [Info]     Candidate paths to be post-filtered:
+[8:39:10 AM] [General] [Info]         C:\Users\User\Downloads\flutter
+[8:39:10 AM] [General] [Info]         C:\Users\User\Downloads\flutter
+[8:39:10 AM] [General] [Info]         C:\Users\User\Documents\flutter
+[8:39:10 AM] [General] [Info]     Found at C:\Users\User\Downloads\flutter
+[8:39:10 AM] [General] [Info]     Returning SDK path C:\Users\User\Downloads\flutter for flutter.bat
+[8:39:10 AM] [General] [Info] Searching for dart.exe
+[8:39:10 AM] [General] [Info]     Looking for dart.exe in:
+[8:39:10 AM] [General] [Info]         C:\Users\User\Downloads\flutter\bin\cache\dart-sdk
+[8:39:10 AM] [General] [Info]         C:\Users\User\Downloads\flutter\bin\cache\dart-sdk\bin
+[8:39:10 AM] [General] [Info]         C:\Program Files\Common Files\Oracle\Java\javapath
+[8:39:10 AM] [General] [Info]         C:\Program Files\Common Files\Oracle\Java\javapath\bin
+[8:39:10 AM] [General] [Info]         C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+[8:39:10 AM] [General] [Info]         C:\Program Files (x86)\Common Files\Oracle\Java\javapath\bin
+[8:39:10 AM] [General] [Info]         C:\Windows\system32
+[8:39:10 AM] [General] [Info]         C:\Windows\system32\bin
+[8:39:10 AM] [General] [Info]         C:\Windows
+[8:39:10 AM] [General] [Info]         C:\Windows\bin
+[8:39:10 AM] [General] [Info]         C:\Windows\System32\Wbem
+[8:39:10 AM] [General] [Info]         C:\Windows\System32\Wbem\bin
+[8:39:10 AM] [General] [Info]         C:\Windows\System32\WindowsPowerShell\v1.0\
+[8:39:10 AM] [General] [Info]         C:\Windows\System32\WindowsPowerShell\v1.0\bin
+[8:39:10 AM] [General] [Info]         C:\Windows\System32\OpenSSH\
+[8:39:10 AM] [General] [Info]         C:\Windows\System32\OpenSSH\bin
+[8:39:10 AM] [General] [Info]         C:\Program Files\dotnet\
+[8:39:10 AM] [General] [Info]         C:\Program Files\dotnet\bin
+[8:39:10 AM] [General] [Info]         C:\Program Files\Git\cmd
+[8:39:10 AM] [General] [Info]         C:\Program Files\Git\cmd\bin
+[8:39:10 AM] [General] [Info]         C:\Program Files\nodejs\
+[8:39:10 AM] [General] [Info]         C:\Program Files\nodejs\bin
+[8:39:10 AM] [General] [Info]         C:\Program Files\Git LFS
+[8:39:10 AM] [General] [Info]         C:\Program Files\Git LFS\bin
+[8:39:10 AM] [General] [Info]         C:\Users\User\AppData\Local\Microsoft\WindowsApps
+[8:39:10 AM] [General] [Info]         C:\Users\User\AppData\Local\Microsoft\WindowsApps\bin
+[8:39:10 AM] [General] [Info]         C:\mingw64\bin
+[8:39:10 AM] [General] [Info]         C:\Users\User\Downloads\flutter\bin
+[8:39:10 AM] [General] [Info]         C:\Users\User\Documents\flutter\bin
+[8:39:10 AM] [General] [Info]         C:\Users\User\.dotnet\tools
+[8:39:10 AM] [General] [Info]         C:\Users\User\.dotnet\tools\bin
+[8:39:10 AM] [General] [Info]         C:\Users\User\AppData\Roaming\npm
+[8:39:10 AM] [General] [Info]         C:\Users\User\AppData\Roaming\npm\bin
+[8:39:10 AM] [General] [Info]         C:\Program Files\Java\jdk-19\bin
+[8:39:10 AM] [General] [Info]         C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin
+[8:39:10 AM] [General] [Info]         C:\Users\User\Downloads\flutter\bin\cache\dart-sdk
+[8:39:10 AM] [General] [Info]         C:\Users\User\Downloads\flutter\bin\cache\dart-sdk\bin
+[8:39:10 AM] [General] [Info]     Found at:
+[8:39:10 AM] [General] [Info]         C:\Users\User\Downloads\flutter\bin\cache\dart-sdk\bin
+[8:39:10 AM] [General] [Info]         C:\Users\User\Downloads\flutter\bin\cache\dart-sdk\bin
+[8:39:10 AM] [General] [Info]     Candidate paths to be post-filtered:
+[8:39:10 AM] [General] [Info]         C:\Users\User\Downloads\flutter\bin\cache\dart-sdk
+[8:39:10 AM] [General] [Info]         C:\Users\User\Downloads\flutter\bin\cache\dart-sdk
+[8:39:10 AM] [General] [Info]     Found at C:\Users\User\Downloads\flutter\bin\cache\dart-sdk
+[8:39:10 AM] [General] [Info]     Returning SDK path C:\Users\User\Downloads\flutter\bin\cache\dart-sdk for dart.exe
+[8:39:10 AM] [General] [Info] Experiment random number is 97 for experiment 'sdkDaps'. Experiment is enabled for <= 10
+[8:39:10 AM] [General] [Info] Experiment 'sdkDaps' does not apply and will not be activated
+[8:39:10 AM] [General] [Info] !! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.62.0
+Flutter extension: 3.62.0 (not activated)
+
+App: Visual Studio Code
+Version: 1.78.0
+Platform: win
+
+Workspace type: Flutter
+Analyzer type: LSP
+Multi-root?: false
+
+Dart SDK:
+    Loc: C:\Users\User\Downloads\flutter\bin\cache\dart-sdk
+    Ver: 2.19.2
+Flutter SDK:
+    Loc: C:\Users\User\Downloads\flutter
+    Ver: 3.7.2
+
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+[8:39:11 AM] [General] [Info] Returning cached results for project search
+[8:39:11 AM] [General] [Info] Activating Flutter extension for Flutter project...
+[8:39:11 AM] [General] [Info] Version last used for Pub is 2.19.2 (2.19.0), current is 2.19.2 (2.19.0)
+[8:39:11 AM] [General] [Info] Found 0 folders requiring "pub get" or "pub upgrade":
+[8:39:11 AM] [General] [Info] Loaded 20000 package names from vscode-userdata:/c%3A/Users/User/AppData/Roaming/Code/User/globalStorage/dart-code.dart-code/package_cache.json
+[8:39:13 AM] [General] [Info] Caching Pub package names from https://pub.dev...
+[8:39:13 AM] [General] [Info] !! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.62.0
+Flutter extension: 3.62.0 (activated)
+
+App: Visual Studio Code
+Version: 1.78.0
+Platform: win
+
+Workspace type: Flutter
+Analyzer type: LSP
+Multi-root?: false
+
+Dart SDK:
+    Loc: C:\Users\User\Downloads\flutter\bin\cache\dart-sdk
+    Ver: 2.19.2
+Flutter SDK:
+    Loc: C:\Users\User\Downloads\flutter
+    Ver: 3.7.2
+
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+[8:39:24 AM] [General] [Info] Starting debug session...
+[8:39:24 AM] [General] [Info]     workspace: C:\Users\User\Desktop\appcom_task
+[8:39:24 AM] [General] [Info] Setting cwd based on likely entry point: C:\Users\User\Desktop\appcom_task
+[8:39:24 AM] [General] [Info] Using found common entry point: C:\Users\User\Desktop\appcom_task\lib\main.dart
+[8:39:24 AM] [General] [Info] Using workspace as cwd: C:\Users\User\Desktop\appcom_task
+[8:39:24 AM] [General] [Info] Detected launch project as Flutter
+[8:39:24 AM] [General] [Info] Using Flutter debug adapter for this session
+[8:39:27 AM] [General] [Info] Returning cached results for project search
+[8:39:27 AM] [General] [Info] Checking 1 projects for supported platforms
+[8:39:27 AM] [General] [Info] Supported platforms for the workspace are linux, macos, windows, ios, android, web
+[8:39:30 AM] [General] [Info] Saving chrome as preferred device
+[8:39:30 AM] [General] [Info] Getting DevTools server address to pass to Flutter...
+[8:39:30 AM] [General] [Info] Checking for errors before launching
+[8:39:30 AM] [General] [Info] Debug session starting...
+    {
+        "noDebug": true,
+        "dartCodeDebugSessionID": "session-d1d22",
+        "type": "dart",
+        "request": "launch",
+        "program": "C:\\Users\\User\\Desktop\\appcom_task\\lib\\main.dart",
+        "cwd": "C:\\Users\\User\\Desktop\\appcom_task",
+        "name": "Flutter (Chrome)",
+        "deviceId": "chrome",
+        "deviceName": "Chrome (web-javascript)",
+        "toolEnv": {
+            "FLUTTER_HOST": "VSCode",
+            "PUB_ENVIRONMENT": "vscode.dart-code"
+        },
+        "sendLogsToClient": false,
+        "sendCustomProgressEvents": true,
+        "additionalProjectPaths": [
+            "C:\\Users\\User\\Desktop\\appcom_task"
+        ],
+        "args": [],
+        "vmAdditionalArgs": [],
+        "toolArgs": [
+            "-d",
+            "chrome",
+            "--devtools-server-address",
+            "http://127.0.0.1:9100/"
+        ],
+        "vmServicePort": 0,
+        "dartSdkPath": "C:\\Users\\User\\Downloads\\flutter\\bin\\cache\\dart-sdk",
+        "vmServiceLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\observatory.txt",
+        "maxLogLineLength": 2000,
+        "dartTestLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\dart_test.txt",
+        "debugSdkLibraries": false,
+        "debugExternalPackageLibraries": false,
+        "showDartDeveloperLogs": true,
+        "evaluateGettersInDebugViews": true,
+        "evaluateToStringInDebugViews": true,
+        "flutterSdkPath": "C:\\Users\\User\\Downloads\\flutter",
+        "useInspectorNotificationsForWidgetErrors": true,
+        "flutterRunLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\flutter_run.txt",
+        "flutterTestLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\flutter_test.txt",
+        "showMemoryUsage": false,
+        "debuggerType": 2
+    }
+[8:39:30 AM] [General] [Info] Using flutter debugger for Flutter
+[8:39:30 AM] [General] [Info] SDK DAP setting is false, set by sdkDaps experiment
+[8:39:30 AM] [General] [Info] Running debugger via node with c:\Users\User\.vscode\extensions\dart-code.dart-code-3.62.0\out\dist\debug.js    flutter
+[8:39:31 AM] [General] [Info] Did not find session 9de87ccc-6e87-4c28-9c36-593a7e273b72 to handle dart.progressStart. There were 0 sessions:
+[8:39:31 AM] [General] [Info] Event will be queued and processed when the session start event fires
+[8:39:31 AM] [General] [Info] Processing delayed event dart.progressStart for session 9de87ccc-6e87-4c28-9c36-593a7e273b72
+[8:39:36 AM] [FlutterRun] [Error] [Flutter (Chrome)] Failed to download https://storage.googleapis.com/flutter_infra_release/flutter/f40b73f8a4d5bc2bf50b21e3c0fb478b8f282486/flutter-web-sdk-windows-x64.zip. Ensure you have network connectivity and then try again.
+SocketException: Failed host lookup: 'storage.googleapis.com' (OS Error: No such host is known.
+, errno = 11001)
+[8:40:27 AM] [General] [Info] Starting debug session...
+[8:40:27 AM] [General] [Info]     workspace: C:\Users\User\Desktop\appcom_task
+[8:40:27 AM] [General] [Info] Setting cwd based on likely entry point: C:\Users\User\Desktop\appcom_task
+[8:40:27 AM] [General] [Info] Using found common entry point: C:\Users\User\Desktop\appcom_task\lib\main.dart
+[8:40:27 AM] [General] [Info] Using workspace as cwd: C:\Users\User\Desktop\appcom_task
+[8:40:27 AM] [General] [Info] Detected launch project as Flutter
+[8:40:27 AM] [General] [Info] Using Flutter debug adapter for this session
+[8:40:27 AM] [General] [Info] Getting DevTools server address to pass to Flutter...
+[8:40:27 AM] [General] [Info] Checking for errors before launching
+[8:40:27 AM] [General] [Info] Debug session starting...
+    {
+        "noDebug": true,
+        "dartCodeDebugSessionID": "session-577d3",
+        "type": "dart",
+        "request": "launch",
+        "program": "C:\\Users\\User\\Desktop\\appcom_task\\lib\\main.dart",
+        "cwd": "C:\\Users\\User\\Desktop\\appcom_task",
+        "name": "Flutter (Chrome)",
+        "deviceId": "chrome",
+        "deviceName": "Chrome (web-javascript)",
+        "toolEnv": {
+            "FLUTTER_HOST": "VSCode",
+            "PUB_ENVIRONMENT": "vscode.dart-code"
+        },
+        "sendLogsToClient": false,
+        "sendCustomProgressEvents": true,
+        "additionalProjectPaths": [
+            "C:\\Users\\User\\Desktop\\appcom_task"
+        ],
+        "args": [],
+        "vmAdditionalArgs": [],
+        "toolArgs": [
+            "-d",
+            "chrome",
+            "--devtools-server-address",
+            "http://127.0.0.1:9100/"
+        ],
+        "vmServicePort": 0,
+        "dartSdkPath": "C:\\Users\\User\\Downloads\\flutter\\bin\\cache\\dart-sdk",
+        "vmServiceLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\observatory.txt",
+        "maxLogLineLength": 2000,
+        "dartTestLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\dart_test.txt",
+        "debugSdkLibraries": false,
+        "debugExternalPackageLibraries": false,
+        "showDartDeveloperLogs": true,
+        "evaluateGettersInDebugViews": true,
+        "evaluateToStringInDebugViews": true,
+        "flutterSdkPath": "C:\\Users\\User\\Downloads\\flutter",
+        "useInspectorNotificationsForWidgetErrors": true,
+        "flutterRunLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\flutter_run.txt",
+        "flutterTestLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\flutter_test.txt",
+        "showMemoryUsage": false,
+        "debuggerType": 2
+    }
+[8:40:27 AM] [General] [Info] Using flutter debugger for Flutter
+[8:40:27 AM] [General] [Info] SDK DAP setting is false, set by sdkDaps experiment
+[8:40:27 AM] [General] [Info] Running debugger via node with c:\Users\User\.vscode\extensions\dart-code.dart-code-3.62.0\out\dist\debug.js    flutter
+[8:40:27 AM] [General] [Info] Did not find session a9a284e2-26f2-4aed-953c-3f33b2572f08 to handle dart.progressStart. There were 0 sessions:
+[8:40:27 AM] [General] [Info] Event will be queued and processed when the session start event fires
+[8:40:27 AM] [General] [Info] Processing delayed event dart.progressStart for session a9a284e2-26f2-4aed-953c-3f33b2572f08
+[8:40:30 AM] [FlutterRun] [Error] [Flutter (Chrome)] Failed to download https://storage.googleapis.com/flutter_infra_release/flutter/f40b73f8a4d5bc2bf50b21e3c0fb478b8f282486/flutter-web-sdk-windows-x64.zip. Ensure you have network connectivity and then try again.
+SocketException: Failed host lookup: 'storage.googleapis.com' (OS Error: No such host is known.
+, errno = 11001)
+[8:40:55 AM] [General] [Info] Starting debug session...
+[8:40:55 AM] [General] [Info]     workspace: C:\Users\User\Desktop\appcom_task
+[8:40:55 AM] [General] [Info] Setting cwd based on likely entry point: C:\Users\User\Desktop\appcom_task
+[8:40:55 AM] [General] [Info] Using found common entry point: C:\Users\User\Desktop\appcom_task\lib\main.dart
+[8:40:55 AM] [General] [Info] Using workspace as cwd: C:\Users\User\Desktop\appcom_task
+[8:40:55 AM] [General] [Info] Detected launch project as Flutter
+[8:40:55 AM] [General] [Info] Using Flutter debug adapter for this session
+[8:40:55 AM] [General] [Info] Getting DevTools server address to pass to Flutter...
+[8:40:55 AM] [General] [Info] Checking for errors before launching
+[8:40:55 AM] [General] [Info] Debug session starting...
+    {
+        "noDebug": true,
+        "dartCodeDebugSessionID": "session-5057a",
+        "type": "dart",
+        "request": "launch",
+        "program": "C:\\Users\\User\\Desktop\\appcom_task\\lib\\main.dart",
+        "cwd": "C:\\Users\\User\\Desktop\\appcom_task",
+        "name": "Flutter (Chrome)",
+        "deviceId": "chrome",
+        "deviceName": "Chrome (web-javascript)",
+        "toolEnv": {
+            "FLUTTER_HOST": "VSCode",
+            "PUB_ENVIRONMENT": "vscode.dart-code"
+        },
+        "sendLogsToClient": false,
+        "sendCustomProgressEvents": true,
+        "additionalProjectPaths": [
+            "C:\\Users\\User\\Desktop\\appcom_task"
+        ],
+        "args": [],
+        "vmAdditionalArgs": [],
+        "toolArgs": [
+            "-d",
+            "chrome",
+            "--devtools-server-address",
+            "http://127.0.0.1:9100/"
+        ],
+        "vmServicePort": 0,
+        "dartSdkPath": "C:\\Users\\User\\Downloads\\flutter\\bin\\cache\\dart-sdk",
+        "vmServiceLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\observatory.txt",
+        "maxLogLineLength": 2000,
+        "dartTestLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\dart_test.txt",
+        "debugSdkLibraries": false,
+        "debugExternalPackageLibraries": false,
+        "showDartDeveloperLogs": true,
+        "evaluateGettersInDebugViews": true,
+        "evaluateToStringInDebugViews": true,
+        "flutterSdkPath": "C:\\Users\\User\\Downloads\\flutter",
+        "useInspectorNotificationsForWidgetErrors": true,
+        "flutterRunLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\flutter_run.txt",
+        "flutterTestLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\flutter_test.txt",
+        "showMemoryUsage": false,
+        "debuggerType": 2
+    }
+[8:40:55 AM] [General] [Info] Using flutter debugger for Flutter
+[8:40:55 AM] [General] [Info] SDK DAP setting is false, set by sdkDaps experiment
+[8:40:55 AM] [General] [Info] Running debugger via node with c:\Users\User\.vscode\extensions\dart-code.dart-code-3.62.0\out\dist\debug.js    flutter
+[8:40:55 AM] [General] [Info] Did not find session 25ec8c00-44d9-4d42-8e08-686c96e0f258 to handle dart.progressStart. There were 0 sessions:
+[8:40:55 AM] [General] [Info] Event will be queued and processed when the session start event fires
+[8:40:55 AM] [General] [Info] Processing delayed event dart.progressStart for session 25ec8c00-44d9-4d42-8e08-686c96e0f258
+[8:43:17 AM] [General] [Info] Returning cached results for project search
+[8:48:55 AM] [General] [Info] Took 207ms to search for projects (5 levels)
+[8:48:55 AM] [General] [Info] Took 7ms to filter out excluded projects (0 exclusion rules)
+[8:49:28 AM] [General] [Info] Returning cached results for project search
+[8:49:40 AM] [General] [Info] Returning cached results for project search
+[8:49:53 AM] [General] [Info] Returning cached results for project search
+[8:50:05 AM] [General] [Info] Returning cached results for project search
+[8:50:17 AM] [General] [Info] Returning cached results for project search
+[8:50:40 AM] [General] [Info] Returning cached results for project search
+[8:50:54 AM] [General] [Info] Returning cached results for project search
+[8:51:53 AM] [General] [Info] Returning cached results for project search
+[8:52:11 AM] [General] [Info] Returning cached results for project search
+[8:52:29 AM] [General] [Info] Returning cached results for project search
+[8:52:44 AM] [General] [Info] Returning cached results for project search
+[8:53:47 AM] [General] [Info] Returning cached results for project search
+[8:54:24 AM] [General] [Info] Took 146ms to search for projects (5 levels)
+[8:54:24 AM] [General] [Info] Took 6ms to filter out excluded projects (0 exclusion rules)
+[8:55:03 AM] [General] [Info] Returning cached results for project search
+[8:55:31 AM] [General] [Info] Returning cached results for project search
+[8:56:21 AM] [General] [Info] Returning cached results for project search
+[8:57:24 AM] [General] [Info] Returning cached results for project search
+[8:58:15 AM] [General] [Info] Returning cached results for project search
+[8:59:04 AM] [General] [Info] Returning cached results for project search
+[8:59:39 AM] [General] [Info] Took 188ms to search for projects (5 levels)
+[8:59:39 AM] [General] [Info] Took 5ms to filter out excluded projects (0 exclusion rules)
+[8:59:51 AM] [General] [Info] Returning cached results for project search
+[9:00:01 AM] [General] [Info] Returning cached results for project search
+[9:01:13 AM] [General] [Info] Returning cached results for project search
+[9:01:53 AM] [General] [Info] Returning cached results for project search
+[9:02:16 AM] [General] [Info] Returning cached results for project search
+[9:02:28 AM] [General] [Info] Returning cached results for project search
+[9:02:42 AM] [General] [Info] Returning cached results for project search
+[9:03:05 AM] [General] [Info] Returning cached results for project search
+[9:03:39 AM] [General] [Info] Returning cached results for project search
+[9:04:04 AM] [General] [Info] Returning cached results for project search
+[9:04:18 AM] [General] [Info] Returning cached results for project search
+[9:04:31 AM] [General] [Info] Returning cached results for project search
+[9:04:45 AM] [General] [Info] Took 193ms to search for projects (5 levels)
+[9:04:45 AM] [General] [Info] Took 6ms to filter out excluded projects (0 exclusion rules)
+[9:04:56 AM] [General] [Info] Returning cached results for project search
+[9:05:06 AM] [General] [Info] Returning cached results for project search
+[9:05:56 AM] [General] [Info] Returning cached results for project search
+[9:06:21 AM] [General] [Info] Returning cached results for project search
+[9:07:03 AM] [General] [Info] Returning cached results for project search
+[9:07:17 AM] [General] [Info] Returning cached results for project search
+[9:07:29 AM] [General] [Info] Returning cached results for project search
+[9:08:39 AM] [General] [Info] Returning cached results for project search
+[9:09:10 AM] [General] [Info] Returning cached results for project search
+[9:09:38 AM] [General] [Info] Returning cached results for project search
+[9:09:49 AM] [General] [Info] Took 144ms to search for projects (5 levels)
+[9:09:49 AM] [General] [Info] Took 3ms to filter out excluded projects (0 exclusion rules)
+[9:11:42 AM] [General] [Info] Returning cached results for project search
+[9:13:39 AM] [General] [Info] Returning cached results for project search
+[9:14:04 AM] [General] [Info] Returning cached results for project search
+[9:14:28 AM] [General] [Info] Returning cached results for project search
+[9:14:54 AM] [General] [Info] Took 175ms to search for projects (5 levels)
+[9:14:54 AM] [General] [Info] Took 8ms to filter out excluded projects (0 exclusion rules)
+[9:15:28 AM] [General] [Info] Returning cached results for project search
+[9:15:47 AM] [General] [Info] Returning cached results for project search
+[9:16:07 AM] [General] [Info] Returning cached results for project search
+[9:16:24 AM] [General] [Info] Returning cached results for project search
+[9:16:38 AM] [General] [Info] Returning cached results for project search
+[9:17:01 AM] [General] [Info] Returning cached results for project search
+[9:17:15 AM] [General] [Info] Returning cached results for project search
+[9:17:34 AM] [General] [Info] Returning cached results for project search
+[9:17:56 AM] [General] [Info] Returning cached results for project search
+[9:18:25 AM] [General] [Info] Returning cached results for project search
+[9:18:44 AM] [General] [Info] Returning cached results for project search
+[9:18:59 AM] [General] [Info] Returning cached results for project search
+[9:19:16 AM] [General] [Info] Returning cached results for project search
+[9:20:02 AM] [General] [Info] Took 141ms to search for projects (5 levels)
+[9:20:02 AM] [General] [Info] Took 7ms to filter out excluded projects (0 exclusion rules)
+[9:21:57 AM] [General] [Info] Returning cached results for project search
+[9:22:21 AM] [General] [Info] Returning cached results for project search
+[9:22:37 AM] [General] [Info] Returning cached results for project search
+[9:23:07 AM] [General] [Info] Returning cached results for project search
+[9:23:21 AM] [General] [Info] Returning cached results for project search
+[9:23:35 AM] [General] [Info] Returning cached results for project search
+[9:23:53 AM] [General] [Info] Returning cached results for project search
+[9:24:15 AM] [General] [Info] Returning cached results for project search
+[9:24:32 AM] [General] [Info] Returning cached results for project search
+[9:24:55 AM] [General] [Info] Returning cached results for project search
+[9:25:18 AM] [General] [Info] Took 214ms to search for projects (5 levels)
+[9:25:18 AM] [General] [Info] Took 16ms to filter out excluded projects (0 exclusion rules)
+[9:25:42 AM] [General] [Info] Returning cached results for project search
+[9:25:57 AM] [General] [Info] Returning cached results for project search
+[9:26:16 AM] [General] [Info] Returning cached results for project search
+[9:26:44 AM] [General] [Info] Returning cached results for project search
+[9:27:02 AM] [General] [Info] Returning cached results for project search
+[9:27:17 AM] [General] [Info] Returning cached results for project search
+[9:27:40 AM] [General] [Info] Returning cached results for project search
+[9:27:58 AM] [General] [Info] Returning cached results for project search
+[9:28:31 AM] [General] [Info] Returning cached results for project search
+[9:28:56 AM] [General] [Info] Returning cached results for project search
+[9:29:34 AM] [General] [Info] Returning cached results for project search
+[9:29:48 AM] [General] [Info] Returning cached results for project search
+[9:31:08 AM] [General] [Info] Took 140ms to search for projects (5 levels)
+[9:31:08 AM] [General] [Info] Took 6ms to filter out excluded projects (0 exclusion rules)
+[9:31:45 AM] [General] [Info] Returning cached results for project search
+[9:32:11 AM] [General] [Info] Returning cached results for project search
+[9:32:27 AM] [General] [Info] Returning cached results for project search
+[9:32:41 AM] [General] [Info] Returning cached results for project search
+[9:33:31 AM] [General] [Info] Returning cached results for project search
+[9:33:51 AM] [General] [Info] Returning cached results for project search
+[9:34:10 AM] [General] [Info] Returning cached results for project search
+[9:34:35 AM] [General] [Info] Returning cached results for project search
+[9:34:57 AM] [General] [Info] Returning cached results for project search
+[9:35:35 AM] [General] [Info] Returning cached results for project search
+[9:35:51 AM] [General] [Info] Returning cached results for project search
+[9:36:29 AM] [General] [Info] Took 169ms to search for projects (5 levels)
+[9:36:29 AM] [General] [Info] Took 2ms to filter out excluded projects (0 exclusion rules)
+[9:36:48 AM] [General] [Info] Returning cached results for project search
+[9:37:04 AM] [General] [Info] Returning cached results for project search
+[9:37:24 AM] [General] [Info] Returning cached results for project search
+[9:37:41 AM] [General] [Info] Returning cached results for project search
+[9:38:38 AM] [General] [Info] Returning cached results for project search
+[9:38:53 AM] [General] [Info] Returning cached results for project search
+[9:39:08 AM] [General] [Info] Returning cached results for project search
+[9:40:37 AM] [General] [Info] Returning cached results for project search
+[9:41:27 AM] [General] [Info] Returning cached results for project search
+[9:41:37 AM] [General] [Info] Took 242ms to search for projects (5 levels)
+[9:41:37 AM] [General] [Info] Took 3ms to filter out excluded projects (0 exclusion rules)
+[9:41:37 AM] [General] [Info] Checking 1 projects for supported platforms
+[9:41:37 AM] [General] [Info] Supported platforms for the workspace are linux, macos, windows, ios, android, web
+[9:41:54 AM] [General] [Info] Saving emulator-5554 as preferred device
+[9:41:54 AM] [General] [Info] Returning cached results for project search
+[9:41:54 AM] [General] [Info] Checking 1 projects for supported platforms
+[9:41:54 AM] [General] [Info] Supported platforms for the workspace are linux, macos, windows, ios, android, web
+[9:42:02 AM] [General] [Info] Starting debug session...
+[9:42:02 AM] [General] [Info]     workspace: C:\Users\User\Desktop\appcom_task
+[9:42:02 AM] [General] [Info] Setting cwd based on likely entry point: C:\Users\User\Desktop\appcom_task
+[9:42:02 AM] [General] [Info] Using found common entry point: C:\Users\User\Desktop\appcom_task\lib\main.dart
+[9:42:02 AM] [General] [Info] Using workspace as cwd: C:\Users\User\Desktop\appcom_task
+[9:42:02 AM] [General] [Info] Detected launch project as Flutter
+[9:42:02 AM] [General] [Info] Using Flutter debug adapter for this session
+[9:42:02 AM] [General] [Info] Getting DevTools server address to pass to Flutter...
+[9:42:02 AM] [General] [Info] Checking for errors before launching
+[9:42:02 AM] [General] [Info] Debug session starting...
+    {
+        "noDebug": true,
+        "dartCodeDebugSessionID": "session-dc366",
+        "type": "dart",
+        "request": "launch",
+        "program": "C:\\Users\\User\\Desktop\\appcom_task\\lib\\main.dart",
+        "cwd": "C:\\Users\\User\\Desktop\\appcom_task",
+        "name": "Flutter (Pixel 3 API 30)",
+        "deviceId": "emulator-5554",
+        "deviceName": "Pixel 3 API 30 (android-x86)",
+        "toolEnv": {
+            "FLUTTER_HOST": "VSCode",
+            "PUB_ENVIRONMENT": "vscode.dart-code"
+        },
+        "sendLogsToClient": false,
+        "sendCustomProgressEvents": true,
+        "additionalProjectPaths": [
+            "C:\\Users\\User\\Desktop\\appcom_task"
+        ],
+        "args": [],
+        "vmAdditionalArgs": [],
+        "toolArgs": [
+            "-d",
+            "emulator-5554",
+            "--devtools-server-address",
+            "http://127.0.0.1:9100/"
+        ],
+        "vmServicePort": 0,
+        "dartSdkPath": "C:\\Users\\User\\Downloads\\flutter\\bin\\cache\\dart-sdk",
+        "vmServiceLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\observatory.txt",
+        "maxLogLineLength": 2000,
+        "dartTestLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\dart_test.txt",
+        "debugSdkLibraries": false,
+        "debugExternalPackageLibraries": false,
+        "showDartDeveloperLogs": true,
+        "evaluateGettersInDebugViews": true,
+        "evaluateToStringInDebugViews": true,
+        "flutterSdkPath": "C:\\Users\\User\\Downloads\\flutter",
+        "useInspectorNotificationsForWidgetErrors": true,
+        "flutterRunLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\flutter_run.txt",
+        "flutterTestLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\flutter_test.txt",
+        "showMemoryUsage": false,
+        "debuggerType": 2
+    }
+[9:42:02 AM] [General] [Info] Using flutter debugger for Flutter
+[9:42:02 AM] [General] [Info] SDK DAP setting is false, set by sdkDaps experiment
+[9:42:02 AM] [General] [Info] Running debugger via node with c:\Users\User\.vscode\extensions\dart-code.dart-code-3.62.0\out\dist\debug.js    flutter
+[9:42:02 AM] [General] [Info] Did not find session d41813b5-3e0d-4fde-b41f-c8cc8a7cce4c to handle dart.progressStart. There were 0 sessions:
+[9:42:02 AM] [General] [Info] Event will be queued and processed when the session start event fires
+[9:42:02 AM] [General] [Info] Processing delayed event dart.progressStart for session d41813b5-3e0d-4fde-b41f-c8cc8a7cce4c
+[9:43:42 AM] [General] [Info] Returning cached results for project search
+[9:57:00 AM] [General] [Info] Will not auto-select vivo 1901 because current device is preferred
+[9:57:01 AM] [General] [Info] Took 146ms to search for projects (5 levels)
+[9:57:01 AM] [General] [Info] Took 8ms to filter out excluded projects (0 exclusion rules)
+[9:57:01 AM] [General] [Info] Checking 1 projects for supported platforms
+[9:57:01 AM] [General] [Info] Supported platforms for the workspace are linux, macos, windows, ios, android, web
+[9:57:03 AM] [General] [Info] Saving TGFUHMJJ8P7HAEEE as preferred device
+[9:57:08 AM] [General] [Info] Starting debug session...
+[9:57:08 AM] [General] [Info]     workspace: C:\Users\User\Desktop\appcom_task
+[9:57:08 AM] [General] [Info] Setting cwd based on likely entry point: C:\Users\User\Desktop\appcom_task
+[9:57:08 AM] [General] [Info] Using found common entry point: C:\Users\User\Desktop\appcom_task\lib\main.dart
+[9:57:08 AM] [General] [Info] Using workspace as cwd: C:\Users\User\Desktop\appcom_task
+[9:57:08 AM] [General] [Info] Detected launch project as Flutter
+[9:57:08 AM] [General] [Info] Using Flutter debug adapter for this session
+[9:57:08 AM] [General] [Info] Getting DevTools server address to pass to Flutter...
+[9:57:08 AM] [General] [Info] Checking for errors before launching
+[9:57:08 AM] [General] [Info] Debug session starting...
+    {
+        "noDebug": true,
+        "dartCodeDebugSessionID": "session-bc967",
+        "type": "dart",
+        "request": "launch",
+        "program": "C:\\Users\\User\\Desktop\\appcom_task\\lib\\main.dart",
+        "cwd": "C:\\Users\\User\\Desktop\\appcom_task",
+        "name": "Flutter (vivo 1901)",
+        "deviceId": "TGFUHMJJ8P7HAEEE",
+        "deviceName": "vivo 1901 (android-arm64)",
+        "toolEnv": {
+            "FLUTTER_HOST": "VSCode",
+            "PUB_ENVIRONMENT": "vscode.dart-code"
+        },
+        "sendLogsToClient": false,
+        "sendCustomProgressEvents": true,
+        "additionalProjectPaths": [
+            "C:\\Users\\User\\Desktop\\appcom_task"
+        ],
+        "args": [],
+        "vmAdditionalArgs": [],
+        "toolArgs": [
+            "-d",
+            "TGFUHMJJ8P7HAEEE",
+            "--devtools-server-address",
+            "http://127.0.0.1:9100/"
+        ],
+        "vmServicePort": 0,
+        "dartSdkPath": "C:\\Users\\User\\Downloads\\flutter\\bin\\cache\\dart-sdk",
+        "vmServiceLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\observatory.txt",
+        "maxLogLineLength": 2000,
+        "dartTestLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\dart_test.txt",
+        "debugSdkLibraries": false,
+        "debugExternalPackageLibraries": false,
+        "showDartDeveloperLogs": true,
+        "evaluateGettersInDebugViews": true,
+        "evaluateToStringInDebugViews": true,
+        "flutterSdkPath": "C:\\Users\\User\\Downloads\\flutter",
+        "useInspectorNotificationsForWidgetErrors": true,
+        "flutterRunLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\flutter_run.txt",
+        "flutterTestLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\flutter_test.txt",
+        "showMemoryUsage": false,
+        "debuggerType": 2
+    }
+[9:57:08 AM] [General] [Info] Using flutter debugger for Flutter
+[9:57:08 AM] [General] [Info] SDK DAP setting is false, set by sdkDaps experiment
+[9:57:08 AM] [General] [Info] Running debugger via node with c:\Users\User\.vscode\extensions\dart-code.dart-code-3.62.0\out\dist\debug.js    flutter
+[9:57:09 AM] [General] [Info] Did not find session f1845b9c-7885-47f8-be26-f21e972f9d58 to handle dart.progressStart. There were 1 sessions:
+  d41813b5-3e0d-4fde-b41f-c8cc8a7cce4c
+[9:57:09 AM] [General] [Info] Event will be queued and processed when the session start event fires
+[9:57:09 AM] [General] [Info] Processing delayed event dart.progressStart for session f1845b9c-7885-47f8-be26-f21e972f9d58
+[9:58:20 AM] [General] [Info] Returning cached results for project search
+[10:03:07 AM] [General] [Info] Took 111ms to search for projects (5 levels)
+[10:03:07 AM] [General] [Info] Took 2ms to filter out excluded projects (0 exclusion rules)
+[10:03:07 AM] [General] [Info] Checking 1 projects for supported platforms
+[10:03:07 AM] [General] [Info] Supported platforms for the workspace are linux, macos, windows, ios, android, web
+[10:03:09 AM] [General] [Info] Saving emulator-5554 as preferred device
+[10:03:17 AM] [General] [Info] Returning cached results for project search
+[10:03:30 AM] [General] [Info] Returning cached results for project search
+[10:03:39 AM] [General] [Info] Returning cached results for project search
+[10:03:53 AM] [General] [Info] Returning cached results for project search
+[10:04:11 AM] [General] [Info] Returning cached results for project search
+[10:04:24 AM] [General] [Info] Returning cached results for project search
+[10:05:15 AM] [General] [Info] Returning cached results for project search
+[10:09:15 AM] [FlutterRun] [Error] [Flutter (vivo 1901)] lib/screens/bottom_nav_bar.dart:27:9: Error: Method not found: 'WeatherApp'.
+        WeatherApp(),
+        ^^^^^^^^^^
+[10:09:16 AM] [FlutterRun] [Error] [Flutter (Pixel 3 API 30)] lib/screens/bottom_nav_bar.dart:27:9: Error: Method not found: 'WeatherApp'.
+        WeatherApp(),
+[10:09:16 AM] [FlutterRun] [Error] [Flutter (Pixel 3 API 30)]         ^^^^^^^^^^
+[10:17:32 AM] [General] [Info] Pubspec C:\Users\User\Desktop\appcom_task\pubspec.yaml was modified
+[10:17:33 AM] [General] [Info] Took 191ms to search for projects (5 levels)
+[10:17:33 AM] [General] [Info] Took 4ms to filter out excluded projects (0 exclusion rules)
+[10:17:33 AM] [General] [Info] Version last used for Pub is 2.19.2 (2.19.0), current is 2.19.2 (2.19.0)
+[10:17:33 AM] [General] [Info] Found 1 folders requiring "pub get" or "pub upgrade":
+    C:\Users\User\Desktop\appcom_task (get: true, upgrade: false, reason: pubspec.yaml was modified (Sat May 06 2023 10:17:32 GMT+0530 (India Standard Time)) more recently than pubspec.lock (Fri May 05 2023 15:18:18 GMT+0530 (India Standard Time)))
+[10:17:42 AM] [General] [Info] Pubspec C:\Users\User\Desktop\appcom_task\pubspec.yaml was modified
+[10:17:43 AM] [General] [Info] Returning cached results for project search
+[10:17:43 AM] [General] [Info] Version last used for Pub is 2.19.2 (2.19.0), current is 2.19.2 (2.19.0)
+[10:17:43 AM] [General] [Info] Found 1 folders requiring "pub get" or "pub upgrade":
+    C:\Users\User\Desktop\appcom_task (get: true, upgrade: false, reason: pubspec.yaml was modified (Sat May 06 2023 10:17:42 GMT+0530 (India Standard Time)) more recently than pubspec.lock (Fri May 05 2023 15:18:18 GMT+0530 (India Standard Time)))
+[10:32:36 AM] [FlutterRun] [Error] [Flutter (Pixel 3 API 30)] lib/screens/weather_app/weather_app.dart:13:9: Error: Expected an identifier, but got ','.
+Try inserting an identifier before ','.
+        ,
+        ^
+[10:36:36 AM] [General] [Info] Starting debug session...
+[10:36:36 AM] [General] [Info]     workspace: C:\Users\User\Desktop\appcom_task
+[10:36:36 AM] [General] [Info] Setting cwd based on likely entry point: C:\Users\User\Desktop\appcom_task
+[10:36:36 AM] [General] [Info] Using found common entry point: C:\Users\User\Desktop\appcom_task\lib\main.dart
+[10:36:36 AM] [General] [Info] Using workspace as cwd: C:\Users\User\Desktop\appcom_task
+[10:36:36 AM] [General] [Info] Detected launch project as Flutter
+[10:36:36 AM] [General] [Info] Using Flutter debug adapter for this session
+[10:36:36 AM] [General] [Info] Getting DevTools server address to pass to Flutter...
+[10:36:36 AM] [General] [Info] Checking for errors before launching
+[10:36:36 AM] [General] [Info] Debug session starting...
+    {
+        "noDebug": true,
+        "dartCodeDebugSessionID": "session-a6c3d",
+        "type": "dart",
+        "request": "launch",
+        "program": "C:\\Users\\User\\Desktop\\appcom_task\\lib\\main.dart",
+        "cwd": "C:\\Users\\User\\Desktop\\appcom_task",
+        "name": "Flutter (Pixel 3 API 30)",
+        "deviceId": "emulator-5554",
+        "deviceName": "Pixel 3 API 30 (android-x86)",
+        "toolEnv": {
+            "FLUTTER_HOST": "VSCode",
+            "PUB_ENVIRONMENT": "vscode.dart-code"
+        },
+        "sendLogsToClient": false,
+        "sendCustomProgressEvents": true,
+        "additionalProjectPaths": [
+            "C:\\Users\\User\\Desktop\\appcom_task"
+        ],
+        "args": [],
+        "vmAdditionalArgs": [],
+        "toolArgs": [
+            "-d",
+            "emulator-5554",
+            "--devtools-server-address",
+            "http://127.0.0.1:9100/"
+        ],
+        "vmServicePort": 0,
+        "dartSdkPath": "C:\\Users\\User\\Downloads\\flutter\\bin\\cache\\dart-sdk",
+        "vmServiceLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\observatory.txt",
+        "maxLogLineLength": 2000,
+        "dartTestLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\dart_test.txt",
+        "debugSdkLibraries": false,
+        "debugExternalPackageLibraries": false,
+        "showDartDeveloperLogs": true,
+        "evaluateGettersInDebugViews": true,
+        "evaluateToStringInDebugViews": true,
+        "flutterSdkPath": "C:\\Users\\User\\Downloads\\flutter",
+        "useInspectorNotificationsForWidgetErrors": true,
+        "flutterRunLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\flutter_run.txt",
+        "flutterTestLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\flutter_test.txt",
+        "showMemoryUsage": false,
+        "debuggerType": 2
+    }
+[10:36:36 AM] [General] [Info] Using flutter debugger for Flutter
+[10:36:36 AM] [General] [Info] SDK DAP setting is false, set by sdkDaps experiment
+[10:36:36 AM] [General] [Info] Running debugger via node with c:\Users\User\.vscode\extensions\dart-code.dart-code-3.62.0\out\dist\debug.js    flutter
+[10:36:37 AM] [General] [Info] Did not find session 3b14758a-2561-4f78-8e56-f56a5576f3dd to handle dart.progressStart. There were 0 sessions:
+[10:36:37 AM] [General] [Info] Event will be queued and processed when the session start event fires
+[10:36:37 AM] [General] [Info] Processing delayed event dart.progressStart for session 3b14758a-2561-4f78-8e56-f56a5576f3dd
+[10:37:30 AM] [General] [Info] Took 696ms to search for projects (5 levels)
+[10:37:30 AM] [General] [Info] Took 9ms to filter out excluded projects (0 exclusion rules)
+[10:43:44 AM] [General] [Info] Pubspec C:\Users\User\Desktop\appcom_task\pubspec.yaml was modified
+[10:43:46 AM] [General] [Info] Took 145ms to search for projects (5 levels)
+[10:43:46 AM] [General] [Info] Took 7ms to filter out excluded projects (0 exclusion rules)
+[10:43:46 AM] [General] [Info] Version last used for Pub is 2.19.2 (2.19.0), current is 2.19.2 (2.19.0)
+[10:43:46 AM] [General] [Info] Found 1 folders requiring "pub get" or "pub upgrade":
+    C:\Users\User\Desktop\appcom_task (get: true, upgrade: false, reason: pubspec.yaml was modified (Sat May 06 2023 10:43:44 GMT+0530 (India Standard Time)) more recently than pubspec.lock (Sat May 06 2023 10:17:57 GMT+0530 (India Standard Time)))
+[10:48:54 AM] [General] [Info] Starting debug session...
+[10:48:54 AM] [General] [Info]     workspace: C:\Users\User\Desktop\appcom_task
+[10:48:54 AM] [General] [Info] Setting cwd based on likely entry point: C:\Users\User\Desktop\appcom_task
+[10:48:54 AM] [General] [Info] Using found common entry point: C:\Users\User\Desktop\appcom_task\lib\main.dart
+[10:48:54 AM] [General] [Info] Using workspace as cwd: C:\Users\User\Desktop\appcom_task
+[10:48:54 AM] [General] [Info] Detected launch project as Flutter
+[10:48:54 AM] [General] [Info] Using Flutter debug adapter for this session
+[10:48:54 AM] [General] [Info] Getting DevTools server address to pass to Flutter...
+[10:48:54 AM] [General] [Info] Checking for errors before launching
+[10:48:54 AM] [General] [Info] Debug session starting...
+    {
+        "noDebug": true,
+        "dartCodeDebugSessionID": "session-df9e0",
+        "type": "dart",
+        "request": "launch",
+        "program": "C:\\Users\\User\\Desktop\\appcom_task\\lib\\main.dart",
+        "cwd": "C:\\Users\\User\\Desktop\\appcom_task",
+        "name": "Flutter (Pixel 3 API 30)",
+        "deviceId": "emulator-5554",
+        "deviceName": "Pixel 3 API 30 (android-x86)",
+        "toolEnv": {
+            "FLUTTER_HOST": "VSCode",
+            "PUB_ENVIRONMENT": "vscode.dart-code"
+        },
+        "sendLogsToClient": false,
+        "sendCustomProgressEvents": true,
+        "additionalProjectPaths": [
+            "C:\\Users\\User\\Desktop\\appcom_task"
+        ],
+        "args": [],
+        "vmAdditionalArgs": [],
+        "toolArgs": [
+            "-d",
+            "emulator-5554",
+            "--devtools-server-address",
+            "http://127.0.0.1:9100/"
+        ],
+        "vmServicePort": 0,
+        "dartSdkPath": "C:\\Users\\User\\Downloads\\flutter\\bin\\cache\\dart-sdk",
+        "vmServiceLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\observatory.txt",
+        "maxLogLineLength": 2000,
+        "dartTestLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\dart_test.txt",
+        "debugSdkLibraries": false,
+        "debugExternalPackageLibraries": false,
+        "showDartDeveloperLogs": true,
+        "evaluateGettersInDebugViews": true,
+        "evaluateToStringInDebugViews": true,
+        "flutterSdkPath": "C:\\Users\\User\\Downloads\\flutter",
+        "useInspectorNotificationsForWidgetErrors": true,
+        "flutterRunLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\flutter_run.txt",
+        "flutterTestLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\flutter_test.txt",
+        "showMemoryUsage": false,
+        "debuggerType": 2
+    }
+[10:48:54 AM] [General] [Info] Using flutter debugger for Flutter
+[10:48:54 AM] [General] [Info] SDK DAP setting is false, set by sdkDaps experiment
+[10:48:54 AM] [General] [Info] Running debugger via node with c:\Users\User\.vscode\extensions\dart-code.dart-code-3.62.0\out\dist\debug.js    flutter
+[10:48:55 AM] [General] [Info] Did not find session 85751cba-bf36-4f36-bc3c-7343a63c01ab to handle dart.progressStart. There were 0 sessions:
+[10:48:55 AM] [General] [Info] Event will be queued and processed when the session start event fires
+[10:48:55 AM] [General] [Info] Processing delayed event dart.progressStart for session 85751cba-bf36-4f36-bc3c-7343a63c01ab
+[10:50:13 AM] [General] [Info] Took 465ms to search for projects (5 levels)
+[10:50:13 AM] [General] [Info] Took 7ms to filter out excluded projects (0 exclusion rules)
+[10:50:29 AM] [General] [Error] Canceled
+Canceled: Canceled
+    at e.RawDebugSession.P (vscode-file://vscode-app/c:/Users/User/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:897:44584)
+    at vscode-file://vscode-app/c:/Users/User/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:897:44511
+[10:50:36 AM] [General] [Info] Starting debug session...
+[10:50:36 AM] [General] [Info]     workspace: C:\Users\User\Desktop\appcom_task
+[10:50:36 AM] [General] [Info] Setting cwd based on likely entry point: C:\Users\User\Desktop\appcom_task
+[10:50:36 AM] [General] [Info] Using found common entry point: C:\Users\User\Desktop\appcom_task\lib\main.dart
+[10:50:36 AM] [General] [Info] Using workspace as cwd: C:\Users\User\Desktop\appcom_task
+[10:50:36 AM] [General] [Info] Detected launch project as Flutter
+[10:50:36 AM] [General] [Info] Using Flutter debug adapter for this session
+[10:50:36 AM] [General] [Info] Getting DevTools server address to pass to Flutter...
+[10:50:36 AM] [General] [Info] Checking for errors before launching
+[10:50:36 AM] [General] [Info] Debug session starting...
+    {
+        "noDebug": true,
+        "dartCodeDebugSessionID": "session-c9165",
+        "type": "dart",
+        "request": "launch",
+        "program": "C:\\Users\\User\\Desktop\\appcom_task\\lib\\main.dart",
+        "cwd": "C:\\Users\\User\\Desktop\\appcom_task",
+        "name": "Flutter (Pixel 3 API 30)",
+        "deviceId": "emulator-5554",
+        "deviceName": "Pixel 3 API 30 (android-x86)",
+        "toolEnv": {
+            "FLUTTER_HOST": "VSCode",
+            "PUB_ENVIRONMENT": "vscode.dart-code"
+        },
+        "sendLogsToClient": false,
+        "sendCustomProgressEvents": true,
+        "additionalProjectPaths": [
+            "C:\\Users\\User\\Desktop\\appcom_task"
+        ],
+        "args": [],
+        "vmAdditionalArgs": [],
+        "toolArgs": [
+            "-d",
+            "emulator-5554",
+            "--devtools-server-address",
+            "http://127.0.0.1:9100/"
+        ],
+        "vmServicePort": 0,
+        "dartSdkPath": "C:\\Users\\User\\Downloads\\flutter\\bin\\cache\\dart-sdk",
+        "vmServiceLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\observatory.txt",
+        "maxLogLineLength": 2000,
+        "dartTestLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\dart_test.txt",
+        "debugSdkLibraries": false,
+        "debugExternalPackageLibraries": false,
+        "showDartDeveloperLogs": true,
+        "evaluateGettersInDebugViews": true,
+        "evaluateToStringInDebugViews": true,
+        "flutterSdkPath": "C:\\Users\\User\\Downloads\\flutter",
+        "useInspectorNotificationsForWidgetErrors": true,
+        "flutterRunLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\flutter_run.txt",
+        "flutterTestLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\flutter_test.txt",
+        "showMemoryUsage": false,
+        "debuggerType": 2
+    }
+[10:50:36 AM] [General] [Info] Using flutter debugger for Flutter
+[10:50:36 AM] [General] [Info] SDK DAP setting is false, set by sdkDaps experiment
+[10:50:36 AM] [General] [Info] Running debugger via node with c:\Users\User\.vscode\extensions\dart-code.dart-code-3.62.0\out\dist\debug.js    flutter
+[10:50:36 AM] [General] [Info] Did not find session 2b2de319-dc38-4af8-bc3b-2973cd06b045 to handle dart.progressStart. There were 0 sessions:
+[10:50:36 AM] [General] [Info] Event will be queued and processed when the session start event fires
+[10:50:36 AM] [General] [Info] Processing delayed event dart.progressStart for session 2b2de319-dc38-4af8-bc3b-2973cd06b045
+[10:51:17 AM] [General] [Info] Returning cached results for project search
+[11:31:33 AM] [General] [Info] Pubspec C:\Users\User\Desktop\appcom_task\pubspec.yaml was modified
+[11:31:34 AM] [General] [Info] Took 168ms to search for projects (5 levels)
+[11:31:34 AM] [General] [Info] Took 11ms to filter out excluded projects (0 exclusion rules)
+[11:31:34 AM] [General] [Info] Version last used for Pub is 2.19.2 (2.19.0), current is 2.19.2 (2.19.0)
+[11:31:34 AM] [General] [Info] Found 1 folders requiring "pub get" or "pub upgrade":
+    C:\Users\User\Desktop\appcom_task (get: true, upgrade: false, reason: pubspec.yaml was modified (Sat May 06 2023 11:31:33 GMT+0530 (India Standard Time)) more recently than pubspec.lock (Sat May 06 2023 10:43:55 GMT+0530 (India Standard Time)))
+[11:38:32 AM] [General] [Info] Pubspec C:\Users\User\Desktop\appcom_task\pubspec.yaml was modified
+[11:38:33 AM] [General] [Info] Took 172ms to search for projects (5 levels)
+[11:38:33 AM] [General] [Info] Took 3ms to filter out excluded projects (0 exclusion rules)
+[11:38:33 AM] [General] [Info] Version last used for Pub is 2.19.2 (2.19.0), current is 2.19.2 (2.19.0)
+[11:38:33 AM] [General] [Info] Found 1 folders requiring "pub get" or "pub upgrade":
+    C:\Users\User\Desktop\appcom_task (get: true, upgrade: false, reason: pubspec.yaml was modified (Sat May 06 2023 11:38:32 GMT+0530 (India Standard Time)) more recently than pubspec.lock (Sat May 06 2023 11:31:43 GMT+0530 (India Standard Time)))
+[11:38:43 AM] [General] [Info] Pubspec C:\Users\User\Desktop\appcom_task\pubspec.yaml was modified
+[11:38:44 AM] [General] [Info] Returning cached results for project search
+[11:38:44 AM] [General] [Info] Version last used for Pub is 2.19.2 (2.19.0), current is 2.19.2 (2.19.0)
+[11:38:44 AM] [General] [Info] Found 0 folders requiring "pub get" or "pub upgrade":
+[11:53:37 AM] [General] [Info] Will not auto-select vivo 1901 because current device is preferred
+[11:53:51 AM] [General] [Info] Took 418ms to search for projects (5 levels)
+[11:53:51 AM] [General] [Info] Took 13ms to filter out excluded projects (0 exclusion rules)
+[11:53:51 AM] [General] [Info] Checking 1 projects for supported platforms
+[11:53:51 AM] [General] [Info] Supported platforms for the workspace are linux, macos, windows, ios, android, web
+[11:53:56 AM] [General] [Info] Saving TGFUHMJJ8P7HAEEE as preferred device
+[11:54:06 AM] [General] [Info] Starting debug session...
+[11:54:06 AM] [General] [Info]     workspace: C:\Users\User\Desktop\appcom_task
+[11:54:06 AM] [General] [Info] Setting cwd based on likely entry point: C:\Users\User\Desktop\appcom_task
+[11:54:06 AM] [General] [Info] Using open file as entry point: C:\Users\User\Desktop\appcom_task\lib\main.dart
+[11:54:06 AM] [General] [Info] Using workspace as cwd: C:\Users\User\Desktop\appcom_task
+[11:54:06 AM] [General] [Info] Detected launch project as Flutter
+[11:54:06 AM] [General] [Info] Using Flutter debug adapter for this session
+[11:54:06 AM] [General] [Info] Getting DevTools server address to pass to Flutter...
+[11:54:06 AM] [General] [Info] Checking for errors before launching
+[11:54:06 AM] [General] [Info] Debug session starting...
+    {
+        "noDebug": true,
+        "dartCodeDebugSessionID": "session-b05d8",
+        "type": "dart",
+        "request": "launch",
+        "program": "C:\\Users\\User\\Desktop\\appcom_task\\lib\\main.dart",
+        "cwd": "C:\\Users\\User\\Desktop\\appcom_task",
+        "name": "Flutter (vivo 1901)",
+        "deviceId": "TGFUHMJJ8P7HAEEE",
+        "deviceName": "vivo 1901 (android-arm64)",
+        "toolEnv": {
+            "FLUTTER_HOST": "VSCode",
+            "PUB_ENVIRONMENT": "vscode.dart-code"
+        },
+        "sendLogsToClient": false,
+        "sendCustomProgressEvents": true,
+        "additionalProjectPaths": [
+            "C:\\Users\\User\\Desktop\\appcom_task"
+        ],
+        "args": [],
+        "vmAdditionalArgs": [],
+        "toolArgs": [
+            "-d",
+            "TGFUHMJJ8P7HAEEE",
+            "--devtools-server-address",
+            "http://127.0.0.1:9100/"
+        ],
+        "vmServicePort": 0,
+        "dartSdkPath": "C:\\Users\\User\\Downloads\\flutter\\bin\\cache\\dart-sdk",
+        "vmServiceLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\observatory.txt",
+        "maxLogLineLength": 2000,
+        "dartTestLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\dart_test.txt",
+        "debugSdkLibraries": false,
+        "debugExternalPackageLibraries": false,
+        "showDartDeveloperLogs": true,
+        "evaluateGettersInDebugViews": true,
+        "evaluateToStringInDebugViews": true,
+        "flutterSdkPath": "C:\\Users\\User\\Downloads\\flutter",
+        "useInspectorNotificationsForWidgetErrors": true,
+        "flutterRunLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\flutter_run.txt",
+        "flutterTestLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\flutter_test.txt",
+        "showMemoryUsage": false,
+        "debuggerType": 2
+    }
+[11:54:06 AM] [General] [Info] Using flutter debugger for Flutter
+[11:54:06 AM] [General] [Info] SDK DAP setting is false, set by sdkDaps experiment
+[11:54:06 AM] [General] [Info] Running debugger via node with c:\Users\User\.vscode\extensions\dart-code.dart-code-3.62.0\out\dist\debug.js    flutter
+[11:54:07 AM] [General] [Info] Did not find session 63ca444b-9fd1-46cc-9327-53e16eb4bf30 to handle dart.progressStart. There were 1 sessions:
+  2b2de319-dc38-4af8-bc3b-2973cd06b045
+[11:54:07 AM] [General] [Info] Event will be queued and processed when the session start event fires
+[11:54:07 AM] [General] [Info] Processing delayed event dart.progressStart for session 63ca444b-9fd1-46cc-9327-53e16eb4bf30
+[11:56:33 AM] [General] [Info] Starting debug session...
+[11:56:33 AM] [General] [Info]     workspace: C:\Users\User\Desktop\appcom_task
+[11:56:33 AM] [General] [Info] Setting cwd based on likely entry point: C:\Users\User\Desktop\appcom_task
+[11:56:33 AM] [General] [Info] Using open file as entry point: C:\Users\User\Desktop\appcom_task\lib\main.dart
+[11:56:33 AM] [General] [Info] Using workspace as cwd: C:\Users\User\Desktop\appcom_task
+[11:56:33 AM] [General] [Info] Detected launch project as Flutter
+[11:56:33 AM] [General] [Info] Using Flutter debug adapter for this session
+[11:56:33 AM] [General] [Info] Getting DevTools server address to pass to Flutter...
+[11:56:33 AM] [General] [Info] Checking for errors before launching
+[11:56:33 AM] [General] [Info] Debug session starting...
+    {
+        "noDebug": true,
+        "dartCodeDebugSessionID": "session-3b567",
+        "type": "dart",
+        "request": "launch",
+        "program": "C:\\Users\\User\\Desktop\\appcom_task\\lib\\main.dart",
+        "cwd": "C:\\Users\\User\\Desktop\\appcom_task",
+        "name": "Flutter (vivo 1901)",
+        "deviceId": "TGFUHMJJ8P7HAEEE",
+        "deviceName": "vivo 1901 (android-arm64)",
+        "toolEnv": {
+            "FLUTTER_HOST": "VSCode",
+            "PUB_ENVIRONMENT": "vscode.dart-code"
+        },
+        "sendLogsToClient": false,
+        "sendCustomProgressEvents": true,
+        "additionalProjectPaths": [
+            "C:\\Users\\User\\Desktop\\appcom_task"
+        ],
+        "args": [],
+        "vmAdditionalArgs": [],
+        "toolArgs": [
+            "-d",
+            "TGFUHMJJ8P7HAEEE",
+            "--devtools-server-address",
+            "http://127.0.0.1:9100/"
+        ],
+        "vmServicePort": 0,
+        "dartSdkPath": "C:\\Users\\User\\Downloads\\flutter\\bin\\cache\\dart-sdk",
+        "vmServiceLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\observatory.txt",
+        "maxLogLineLength": 2000,
+        "dartTestLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\dart_test.txt",
+        "debugSdkLibraries": false,
+        "debugExternalPackageLibraries": false,
+        "showDartDeveloperLogs": true,
+        "evaluateGettersInDebugViews": true,
+        "evaluateToStringInDebugViews": true,
+        "flutterSdkPath": "C:\\Users\\User\\Downloads\\flutter",
+        "useInspectorNotificationsForWidgetErrors": true,
+        "flutterRunLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\flutter_run.txt",
+        "flutterTestLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\flutter_test.txt",
+        "showMemoryUsage": false,
+        "debuggerType": 2
+    }
+[11:56:33 AM] [General] [Info] Using flutter debugger for Flutter
+[11:56:33 AM] [General] [Info] SDK DAP setting is false, set by sdkDaps experiment
+[11:56:33 AM] [General] [Info] Running debugger via node with c:\Users\User\.vscode\extensions\dart-code.dart-code-3.62.0\out\dist\debug.js    flutter
+[11:56:34 AM] [General] [Info] Did not find session 3e969ec4-7846-496a-a78a-a6a2ef9f0bdc to handle dart.progressStart. There were 0 sessions:
+[11:56:34 AM] [General] [Info] Event will be queued and processed when the session start event fires
+[11:56:34 AM] [General] [Info] Processing delayed event dart.progressStart for session 3e969ec4-7846-496a-a78a-a6a2ef9f0bdc
+[11:57:29 AM] [General] [Info] Starting debug session...
+[11:57:29 AM] [General] [Info]     workspace: C:\Users\User\Desktop\appcom_task
+[11:57:29 AM] [General] [Info] Setting cwd based on likely entry point: C:\Users\User\Desktop\appcom_task
+[11:57:29 AM] [General] [Info] Using open file as entry point: C:\Users\User\Desktop\appcom_task\lib\main.dart
+[11:57:29 AM] [General] [Info] Using workspace as cwd: C:\Users\User\Desktop\appcom_task
+[11:57:29 AM] [General] [Info] Detected launch project as Flutter
+[11:57:29 AM] [General] [Info] Using Flutter debug adapter for this session
+[11:57:29 AM] [General] [Info] Getting DevTools server address to pass to Flutter...
+[11:57:29 AM] [General] [Info] Checking for errors before launching
+[11:57:29 AM] [General] [Info] Debug session starting...
+    {
+        "noDebug": true,
+        "dartCodeDebugSessionID": "session-182b0",
+        "type": "dart",
+        "request": "launch",
+        "program": "C:\\Users\\User\\Desktop\\appcom_task\\lib\\main.dart",
+        "cwd": "C:\\Users\\User\\Desktop\\appcom_task",
+        "name": "Flutter (vivo 1901)",
+        "deviceId": "TGFUHMJJ8P7HAEEE",
+        "deviceName": "vivo 1901 (android-arm64)",
+        "toolEnv": {
+            "FLUTTER_HOST": "VSCode",
+            "PUB_ENVIRONMENT": "vscode.dart-code"
+        },
+        "sendLogsToClient": false,
+        "sendCustomProgressEvents": true,
+        "additionalProjectPaths": [
+            "C:\\Users\\User\\Desktop\\appcom_task"
+        ],
+        "args": [],
+        "vmAdditionalArgs": [],
+        "toolArgs": [
+            "-d",
+            "TGFUHMJJ8P7HAEEE",
+            "--devtools-server-address",
+            "http://127.0.0.1:9100/"
+        ],
+        "vmServicePort": 0,
+        "dartSdkPath": "C:\\Users\\User\\Downloads\\flutter\\bin\\cache\\dart-sdk",
+        "vmServiceLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\observatory.txt",
+        "maxLogLineLength": 2000,
+        "dartTestLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\dart_test.txt",
+        "debugSdkLibraries": false,
+        "debugExternalPackageLibraries": false,
+        "showDartDeveloperLogs": true,
+        "evaluateGettersInDebugViews": true,
+        "evaluateToStringInDebugViews": true,
+        "flutterSdkPath": "C:\\Users\\User\\Downloads\\flutter",
+        "useInspectorNotificationsForWidgetErrors": true,
+        "flutterRunLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\flutter_run.txt",
+        "flutterTestLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\flutter_test.txt",
+        "showMemoryUsage": false,
+        "debuggerType": 2
+    }
+[11:57:29 AM] [General] [Info] Using flutter debugger for Flutter
+[11:57:29 AM] [General] [Info] SDK DAP setting is false, set by sdkDaps experiment
+[11:57:29 AM] [General] [Info] Running debugger via node with c:\Users\User\.vscode\extensions\dart-code.dart-code-3.62.0\out\dist\debug.js    flutter
+[11:57:30 AM] [General] [Info] Did not find session eee94019-6316-471c-bf2b-6ed48a673df9 to handle dart.progressStart. There were 0 sessions:
+[11:57:30 AM] [General] [Info] Event will be queued and processed when the session start event fires
+[11:57:30 AM] [General] [Info] Processing delayed event dart.progressStart for session eee94019-6316-471c-bf2b-6ed48a673df9
+[11:59:09 AM] [General] [Info] Starting debug session...
+[11:59:09 AM] [General] [Info]     workspace: C:\Users\User\Desktop\appcom_task
+[11:59:09 AM] [General] [Info] Setting cwd based on likely entry point: C:\Users\User\Desktop\appcom_task
+[11:59:09 AM] [General] [Info] Using open file as entry point: C:\Users\User\Desktop\appcom_task\lib\main.dart
+[11:59:09 AM] [General] [Info] Using workspace as cwd: C:\Users\User\Desktop\appcom_task
+[11:59:09 AM] [General] [Info] Detected launch project as Flutter
+[11:59:09 AM] [General] [Info] Using Flutter debug adapter for this session
+[11:59:09 AM] [General] [Info] Getting DevTools server address to pass to Flutter...
+[11:59:09 AM] [General] [Info] Checking for errors before launching
+[11:59:09 AM] [General] [Info] Debug session starting...
+    {
+        "noDebug": true,
+        "dartCodeDebugSessionID": "session-11ec8",
+        "type": "dart",
+        "request": "launch",
+        "program": "C:\\Users\\User\\Desktop\\appcom_task\\lib\\main.dart",
+        "cwd": "C:\\Users\\User\\Desktop\\appcom_task",
+        "name": "Flutter (vivo 1901)",
+        "deviceId": "TGFUHMJJ8P7HAEEE",
+        "deviceName": "vivo 1901 (android-arm64)",
+        "toolEnv": {
+            "FLUTTER_HOST": "VSCode",
+            "PUB_ENVIRONMENT": "vscode.dart-code"
+        },
+        "sendLogsToClient": false,
+        "sendCustomProgressEvents": true,
+        "additionalProjectPaths": [
+            "C:\\Users\\User\\Desktop\\appcom_task"
+        ],
+        "args": [],
+        "vmAdditionalArgs": [],
+        "toolArgs": [
+            "-d",
+            "TGFUHMJJ8P7HAEEE",
+            "--devtools-server-address",
+            "http://127.0.0.1:9100/"
+        ],
+        "vmServicePort": 0,
+        "dartSdkPath": "C:\\Users\\User\\Downloads\\flutter\\bin\\cache\\dart-sdk",
+        "vmServiceLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\observatory.txt",
+        "maxLogLineLength": 2000,
+        "dartTestLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\dart_test.txt",
+        "debugSdkLibraries": false,
+        "debugExternalPackageLibraries": false,
+        "showDartDeveloperLogs": true,
+        "evaluateGettersInDebugViews": true,
+        "evaluateToStringInDebugViews": true,
+        "flutterSdkPath": "C:\\Users\\User\\Downloads\\flutter",
+        "useInspectorNotificationsForWidgetErrors": true,
+        "flutterRunLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\flutter_run.txt",
+        "flutterTestLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\flutter_test.txt",
+        "showMemoryUsage": false,
+        "debuggerType": 2
+    }
+[11:59:09 AM] [General] [Info] Using flutter debugger for Flutter
+[11:59:09 AM] [General] [Info] SDK DAP setting is false, set by sdkDaps experiment
+[11:59:09 AM] [General] [Info] Running debugger via node with c:\Users\User\.vscode\extensions\dart-code.dart-code-3.62.0\out\dist\debug.js    flutter
+[11:59:10 AM] [General] [Info] Did not find session 8514aa6e-b71d-41f1-9fed-e02e773d2484 to handle dart.progressStart. There were 0 sessions:
+[11:59:10 AM] [General] [Info] Event will be queued and processed when the session start event fires
+[11:59:10 AM] [General] [Info] Processing delayed event dart.progressStart for session 8514aa6e-b71d-41f1-9fed-e02e773d2484
+[12:00:35 PM] [General] [Info] Starting debug session...
+[12:00:35 PM] [General] [Info]     workspace: C:\Users\User\Desktop\appcom_task
+[12:00:35 PM] [General] [Info] Setting cwd based on likely entry point: C:\Users\User\Desktop\appcom_task
+[12:00:35 PM] [General] [Info] Using open file as entry point: C:\Users\User\Desktop\appcom_task\lib\main.dart
+[12:00:35 PM] [General] [Info] Using workspace as cwd: C:\Users\User\Desktop\appcom_task
+[12:00:35 PM] [General] [Info] Detected launch project as Flutter
+[12:00:35 PM] [General] [Info] Using Flutter debug adapter for this session
+[12:00:36 PM] [General] [Info] Getting DevTools server address to pass to Flutter...
+[12:00:36 PM] [General] [Info] Checking for errors before launching
+[12:00:36 PM] [General] [Info] Debug session starting...
+    {
+        "noDebug": true,
+        "dartCodeDebugSessionID": "session-d0765",
+        "type": "dart",
+        "request": "launch",
+        "program": "C:\\Users\\User\\Desktop\\appcom_task\\lib\\main.dart",
+        "cwd": "C:\\Users\\User\\Desktop\\appcom_task",
+        "name": "Flutter (vivo 1901)",
+        "deviceId": "TGFUHMJJ8P7HAEEE",
+        "deviceName": "vivo 1901 (android-arm64)",
+        "toolEnv": {
+            "FLUTTER_HOST": "VSCode",
+            "PUB_ENVIRONMENT": "vscode.dart-code"
+        },
+        "sendLogsToClient": false,
+        "sendCustomProgressEvents": true,
+        "additionalProjectPaths": [
+            "C:\\Users\\User\\Desktop\\appcom_task"
+        ],
+        "args": [],
+        "vmAdditionalArgs": [],
+        "toolArgs": [
+            "-d",
+            "TGFUHMJJ8P7HAEEE",
+            "--devtools-server-address",
+            "http://127.0.0.1:9100/"
+        ],
+        "vmServicePort": 0,
+        "dartSdkPath": "C:\\Users\\User\\Downloads\\flutter\\bin\\cache\\dart-sdk",
+        "vmServiceLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\observatory.txt",
+        "maxLogLineLength": 2000,
+        "dartTestLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\dart_test.txt",
+        "debugSdkLibraries": false,
+        "debugExternalPackageLibraries": false,
+        "showDartDeveloperLogs": true,
+        "evaluateGettersInDebugViews": true,
+        "evaluateToStringInDebugViews": true,
+        "flutterSdkPath": "C:\\Users\\User\\Downloads\\flutter",
+        "useInspectorNotificationsForWidgetErrors": true,
+        "flutterRunLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\flutter_run.txt",
+        "flutterTestLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\flutter_test.txt",
+        "showMemoryUsage": false,
+        "debuggerType": 2
+    }
+[12:00:36 PM] [General] [Info] Using flutter debugger for Flutter
+[12:00:36 PM] [General] [Info] SDK DAP setting is false, set by sdkDaps experiment
+[12:00:36 PM] [General] [Info] Running debugger via node with c:\Users\User\.vscode\extensions\dart-code.dart-code-3.62.0\out\dist\debug.js    flutter
+[12:00:39 PM] [General] [Info] Did not find session d8807c16-95ca-47b6-85d9-fdc88db00d8e to handle dart.progressStart. There were 0 sessions:
+[12:00:39 PM] [General] [Info] Event will be queued and processed when the session start event fires
+[12:00:39 PM] [General] [Info] Processing delayed event dart.progressStart for session d8807c16-95ca-47b6-85d9-fdc88db00d8e
+[12:03:25 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] Note: C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\geocoding_android-2.1.0\android\src\main\java\com\baseflow\geocoding\Geocoding.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+[12:03:36 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] Note: C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_android-4.1.7\android\src\main\java\com\baseflow\geolocator\location\FusedLocationClient.java uses or overrides a deprecated API.
+[12:03:36 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] Note: Recompile with -Xlint:deprecation for details.
+[12:04:31 PM] [General] [Info] Took 1381ms to search for projects (5 levels)
+[12:04:31 PM] [General] [Info] Took 11ms to filter out excluded projects (0 exclusion rules)
+[12:04:31 PM] [General] [Info] Checking 1 projects for supported platforms
+[12:04:31 PM] [General] [Info] Supported platforms for the workspace are linux, macos, windows, ios, android, web
+[12:04:39 PM] [General] [Info] Returning cached promise for getSupportedPlatforms()
+[12:04:45 PM] [General] [Info] Starting debug session...
+[12:04:45 PM] [General] [Info]     workspace: C:\Users\User\Desktop\appcom_task
+[12:04:45 PM] [General] [Info] Setting cwd based on likely entry point: C:\Users\User\Desktop\appcom_task
+[12:04:45 PM] [General] [Info] Using open file as entry point: C:\Users\User\Desktop\appcom_task\lib\main.dart
+[12:04:45 PM] [General] [Info] Using workspace as cwd: C:\Users\User\Desktop\appcom_task
+[12:04:45 PM] [General] [Info] Detected launch project as Flutter
+[12:04:45 PM] [General] [Info] Using Flutter debug adapter for this session
+[12:04:45 PM] [General] [Info] Getting DevTools server address to pass to Flutter...
+[12:04:45 PM] [General] [Info] Checking for errors before launching
+[12:04:45 PM] [General] [Info] Debug session starting...
+    {
+        "noDebug": true,
+        "dartCodeDebugSessionID": "session-eb9f0",
+        "type": "dart",
+        "request": "launch",
+        "program": "C:\\Users\\User\\Desktop\\appcom_task\\lib\\main.dart",
+        "cwd": "C:\\Users\\User\\Desktop\\appcom_task",
+        "name": "Flutter (vivo 1901)",
+        "deviceId": "TGFUHMJJ8P7HAEEE",
+        "deviceName": "vivo 1901 (android-arm64)",
+        "toolEnv": {
+            "FLUTTER_HOST": "VSCode",
+            "PUB_ENVIRONMENT": "vscode.dart-code"
+        },
+        "sendLogsToClient": false,
+        "sendCustomProgressEvents": true,
+        "additionalProjectPaths": [
+            "C:\\Users\\User\\Desktop\\appcom_task"
+        ],
+        "args": [],
+        "vmAdditionalArgs": [],
+        "toolArgs": [
+            "-d",
+            "TGFUHMJJ8P7HAEEE",
+            "--devtools-server-address",
+            "http://127.0.0.1:9100/"
+        ],
+        "vmServicePort": 0,
+        "dartSdkPath": "C:\\Users\\User\\Downloads\\flutter\\bin\\cache\\dart-sdk",
+        "vmServiceLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\observatory.txt",
+        "maxLogLineLength": 2000,
+        "dartTestLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\dart_test.txt",
+        "debugSdkLibraries": false,
+        "debugExternalPackageLibraries": false,
+        "showDartDeveloperLogs": true,
+        "evaluateGettersInDebugViews": true,
+        "evaluateToStringInDebugViews": true,
+        "flutterSdkPath": "C:\\Users\\User\\Downloads\\flutter",
+        "useInspectorNotificationsForWidgetErrors": true,
+        "flutterRunLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\flutter_run.txt",
+        "flutterTestLogFile": "C:\\Users\\User\\Desktop\\appcom_task\\logs\\flutter_test.txt",
+        "showMemoryUsage": false,
+        "debuggerType": 2
+    }
+[12:04:45 PM] [General] [Info] Using flutter debugger for Flutter
+[12:04:45 PM] [General] [Info] SDK DAP setting is false, set by sdkDaps experiment
+[12:04:45 PM] [General] [Info] Running debugger via node with c:\Users\User\.vscode\extensions\dart-code.dart-code-3.62.0\out\dist\debug.js    flutter
+[12:04:49 PM] [General] [Info] Did not find session a12190a6-4cd1-4b2c-9ada-bda9fb6e9286 to handle dart.progressStart. There were 0 sessions:
+[12:04:49 PM] [General] [Info] Event will be queued and processed when the session start event fires
+[12:04:49 PM] [General] [Info] Processing delayed event dart.progressStart for session a12190a6-4cd1-4b2c-9ada-bda9fb6e9286
+[12:06:47 PM] [General] [Info] Returning cached results for project search
+[12:09:00 PM] [General] [Info] Returning cached results for project search
+[12:09:15 PM] [General] [Info] Returning cached results for project search
+[12:10:22 PM] [General] [Info] Took 308ms to search for projects (5 levels)
+[12:10:22 PM] [General] [Info] Took 3ms to filter out excluded projects (0 exclusion rules)
+[12:16:25 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] lib/view/weather_app/weather_app.dart:291:31: Error: The method 'MoreDetialsWidgets' isn't defined for the class 'WeatherScreen'.
+ - 'WeatherScreen' is from 'package:appcom_task/view/weather_app/weather_app.dart' ('lib/view/weather_app/weather_app.dart').
+Try correcting the name to the name of an existing method, or defining a method named 'MoreDetialsWidgets'.
+                              MoreDetialsWidgets(
+                              ^^^^^^^^^^^^^^^^^^
+[12:16:25 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] lib/view/weather_app/weather_app.dart:301:31: Error: The method 'MoreDetialsWidgets' isn't defined for the class 'WeatherScreen'.
+[12:16:25 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]  - 'WeatherScreen' is from 'package:appcom_task/view/weather_app/weather_app.dart' ('lib/view/weather_app/weather_app.dart').
+Try correcting the name to the name of an existing method, or defining a method named 'MoreDetialsWidgets'.
+                              MoreDetialsWidgets(
+                              ^^^^^^^^^^^^^^^^^^
+[12:16:25 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] lib/view/weather_app/weather_app.dart:309:31: Error: The method 'MoreDetialsWidgets' isn't defined for the class 'WeatherScreen'.
+[12:16:25 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]  - 'WeatherScreen' is from 'package:appcom_task/view/weather_app/weather_app.dart' ('lib/view/weather_app/weather_app.dart').
+Try correcting the name to the name of an existing method, or defining a method named 'MoreDetialsWidgets'.
+                              MoreDetialsWidgets(
+[12:16:25 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]                               ^^^^^^^^^^^^^^^^^^
+[12:16:25 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] lib/view/weather_app/weather_app.dart:318:31: Error: The method 'MoreDetialsWidgets' isn't defined for the class 'WeatherScreen'.
+[12:16:25 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]  - 'WeatherScreen' is from 'package:appcom_task/view/weather_app/weather_app.dart' ('lib/view/weather_app/weather_app.dart').
+Try correcting the name to the name of an existing method, or defining a method named 'MoreDetialsWidgets'.
+[12:16:25 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]                               MoreDetialsWidgets(
+                              ^^^^^^^^^^^^^^^^^^
+[12:16:25 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] lib/view/weather_app/weather_app.dart:327:31: Error: The method 'MoreDetialsWidgets' isn't defined for the class 'WeatherScreen'.
+[12:16:25 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]  - 'WeatherScreen' is from 'package:appcom_task/view/weather_app/weather_app.dart' ('lib/view/weather_app/weather_app.dart').
+[12:16:25 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] Try correcting the name to the name of an existing method, or defining a method named 'MoreDetialsWidgets'.
+[12:16:25 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]                               MoreDetialsWidgets(
+[12:16:25 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]                               ^^^^^^^^^^^^^^^^^^
+[12:16:25 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] lib/view/weather_app/weather_app.dart:335:31: Error: The method 'MoreDetialsWidgets' isn't defined for the class 'WeatherScreen'.
+[12:16:25 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]  - 'WeatherScreen' is from 'package:appcom_task/view/weather_app/weather_app.dart' ('lib/view/weather_app/weather_app.dart').
+Try correcting the name to the name of an existing method, or defining a method named 'MoreDetialsWidgets'.
+[12:16:25 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]                               MoreDetialsWidgets(
+[12:16:25 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]                               ^^^^^^^^^^^^^^^^^^
+[12:17:18 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] lib/view/weather_app/weather_app.dart:335:45: Error: Too many positional arguments: 0 allowed, but 1 found.
+[12:17:18 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] Try removing the extra positional arguments.
+                              DetialsWidgets(
+                                            ^
+lib/view/weather_app/widget/details_widget.dart:4:9: Context: Found this candidate, but the arguments don't match.
+[12:17:18 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]   const DetialsWidgets({
+        ^^^^^^^^^^^^^^
+[12:17:55 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] lib/view/weather_app/weather_app.dart:335:45: Error: Too many positional arguments: 0 allowed, but 1 found.
+[12:17:55 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] Try removing the extra positional arguments.
+                              DetialsWidgets(
+                                            ^
+lib/view/weather_app/widget/details_widget.dart:4:9: Context: Found this candidate, but the arguments don't match.
+[12:17:55 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]   const DetialsWidgets({
+        ^^^^^^^^^^^^^^
+[12:18:01 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] lib/view/weather_app/weather_app.dart:335:45: Error: Too many positional arguments: 0 allowed, but 1 found.
+[12:18:01 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] Try removing the extra positional arguments.
+                              DetialsWidgets(
+[12:18:01 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]                                             ^
+lib/view/weather_app/widget/details_widget.dart:4:9: Context: Found this candidate, but the arguments don't match.
+[12:18:01 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]   const DetialsWidgets({
+        ^^^^^^^^^^^^^^
+[12:28:01 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] lib/view/weather_app/weather_app.dart:139:37: Error: Required named parameter 'color' must be provided.
+[12:28:01 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]                           CommonCard(
+                                    ^
+lib/view/weather_app/widget/card.dart:4:9: Context: Found this candidate, but the arguments don't match.
+[12:28:01 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]   const CommonCard({
+        ^^^^^^^^^^
+[12:28:01 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] lib/view/weather_app/weather_app.dart:145:37: Error: Required named parameter 'color' must be provided.
+[12:28:01 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]                           CommonCard(
+                                    ^
+lib/view/weather_app/widget/card.dart:4:9: Context: Found this candidate, but the arguments don't match.
+[12:28:01 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]   const CommonCard({
+        ^^^^^^^^^^
+lib/view/weather_app/weather_app.dart:151:37: Error: Required named parameter 'color' must be provided.
+[12:28:01 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]                           CommonCard(
+                                    ^
+lib/view/weather_app/widget/card.dart:4:9: Context: Found this candidate, but the arguments don't match.
+  const CommonCard({
+[12:28:01 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]         ^^^^^^^^^^
+[12:36:49 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] lib/view/weather_app/weather_app.dart:140:27: Error: The method 'CircleAvatarWidget' isn't defined for the class 'WeatherScreen'.
+[12:36:49 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]  - 'WeatherScreen' is from 'package:appcom_task/view/weather_app/weather_app.dart' ('lib/view/weather_app/weather_app.dart').
+[12:36:49 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] Try correcting the name to the name of an existing method, or defining a method named 'CircleAvatarWidget'.
+                          CircleAvatarWidget(
+[12:36:49 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]                           ^^^^^^^^^^^^^^^^^^
+[12:36:49 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] lib/view/weather_app/weather_app.dart:146:27: Error: The method 'CircleAvatarWidget' isn't defined for the class 'WeatherScreen'.
+[12:36:49 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]  - 'WeatherScreen' is from 'package:appcom_task/view/weather_app/weather_app.dart' ('lib/view/weather_app/weather_app.dart').
+[12:36:49 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] Try correcting the name to the name of an existing method, or defining a method named 'CircleAvatarWidget'.
+                          CircleAvatarWidget(
+[12:36:49 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]                           ^^^^^^^^^^^^^^^^^^
+[12:36:49 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] lib/view/weather_app/weather_app.dart:152:27: Error: The method 'CircleAvatarWidget' isn't defined for the class 'WeatherScreen'.
+[12:36:49 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]  - 'WeatherScreen' is from 'package:appcom_task/view/weather_app/weather_app.dart' ('lib/view/weather_app/weather_app.dart').
+[12:36:49 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] Try correcting the name to the name of an existing method, or defining a method named 'CircleAvatarWidget'.
+                          CircleAvatarWidget(
+[12:36:49 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]                           ^^^^^^^^^^^^^^^^^^

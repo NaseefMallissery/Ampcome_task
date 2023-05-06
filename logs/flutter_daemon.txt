@@ -1,0 +1,231 @@
+!! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.62.0
+Flutter extension: 3.62.0 (not activated)
+
+App: Visual Studio Code
+Version: 1.78.0
+Platform: win
+
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+
+Logging Categories:
+    FlutterDaemon
+
+Sat May 06 2023 [08:39:10 GMT+0530 (India Standard Time)] Log file started
+[8:39:10 AM] [FlutterDaemon] [Info] Spawning C:\Users\User\Downloads\flutter\bin\flutter.bat with args ["daemon"]
+[8:39:10 AM] [FlutterDaemon] [Info] ..  in C:\Users\User\Downloads\flutter
+[8:39:10 AM] [FlutterDaemon] [Info] ..  with {"toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code"}}
+[8:39:10 AM] [FlutterDaemon] [Info]     PID: 9408
+[8:39:10 AM] [FlutterDaemon] [Info] ==> [{"id":"1","method":"emulator.getEmulators"}]
+[8:39:17 AM] [FlutterDaemon] [Info] ==> [{"id":"2","method":"emulator.getEmulators"}]
+[8:39:22 AM] [FlutterDaemon] [Info] <== [{"event":"daemon.connected","params":{"version":"0.6.1","pid":11232}}]
+[8:39:22 AM] [FlutterDaemon] [Info] ==> [{"id":"3","method":"device.enable"}]
+[8:39:22 AM] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"status","message":"Starting device daemon..."}}]
+[8:39:23 AM] [FlutterDaemon] [Info] <== [{"id":"3"}]
+[8:39:23 AM] [FlutterDaemon] [Info] <== [{"id":"2","result":[{"id":"Pixel_3_API_30","name":"Pixel 3 API 30","category":"mobile","platformType":"android"}]}]
+[8:39:23 AM] [FlutterDaemon] [Info] <== [{"id":"1","result":[{"id":"Pixel_3_API_30","name":"Pixel 3 API 30","category":"mobile","platformType":"android"}]}]
+[8:39:24 AM] [FlutterDaemon] [Info] ==> [{"id":"4","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[8:39:24 AM] [FlutterDaemon] [Info] <== [{"id":"4","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[8:39:24 AM] [FlutterDaemon] [Info] ==> [{"id":"5","method":"emulator.getEmulators"}]
+[8:39:24 AM] [FlutterDaemon] [Info] <== [{"id":"5","result":[{"id":"Pixel_3_API_30","name":"Pixel 3 API 30","category":"mobile","platformType":"android"}]}]
+[8:39:27 AM] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"windows","name":"Windows","platform":"windows-x64","emulator":false,"category":"desktop","platformType":"windows","ephemeral":false,"emulatorId":null,"sdk":"Microsoft Windows [Version 10.0.19044.2728]","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":false,"fastStart":false,"flutterExit":true,"hardwareRendering":true,"startPaused":true}}}]
+[8:39:27 AM] [FlutterDaemon] [Info] ==> [{"id":"6","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[8:39:27 AM] [FlutterDaemon] [Info] <== [{"id":"6","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[8:39:27 AM] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"chrome","name":"Chrome","platform":"web-javascript","emulator":false,"category":"web","platformType":"web","ephemeral":false,"emulatorId":null,"sdk":"Google Chrome 112.0.5615.139","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":false,"fastStart":false,"flutterExit":false,"hardwareRendering":true,"startPaused":true}}}]
+[8:39:27 AM] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"edge","name":"Edge","platform":"web-javascript","emulator":false,"category":"web","platformType":"web","ephemeral":false,"emulatorId":null,"sdk":"Microsoft Edge 110.0.1587.69","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":false,"fastStart":false,"flutterExit":false,"hardwareRendering":true,"startPaused":true}}}]
+[8:39:30 AM] [FlutterDaemon] [Info] ==> [{"id":"7","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[8:39:30 AM] [FlutterDaemon] [Info] <== [{"id":"7","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[8:39:36 AM] [FlutterRun] [Error] [Flutter (Chrome)] Failed to download https://storage.googleapis.com/flutter_infra_release/flutter/f40b73f8a4d5bc2bf50b21e3c0fb478b8f282486/flutter-web-sdk-windows-x64.zip. Ensure you have network connectivity and then try again.
+SocketException: Failed host lookup: 'storage.googleapis.com' (OS Error: No such host is known.
+, errno = 11001)
+[8:40:27 AM] [FlutterDaemon] [Info] ==> [{"id":"8","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[8:40:27 AM] [FlutterDaemon] [Info] <== [{"id":"8","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[8:40:27 AM] [FlutterDaemon] [Info] ==> [{"id":"9","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[8:40:27 AM] [FlutterDaemon] [Info] <== [{"id":"9","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[8:40:30 AM] [FlutterRun] [Error] [Flutter (Chrome)] Failed to download https://storage.googleapis.com/flutter_infra_release/flutter/f40b73f8a4d5bc2bf50b21e3c0fb478b8f282486/flutter-web-sdk-windows-x64.zip. Ensure you have network connectivity and then try again.
+SocketException: Failed host lookup: 'storage.googleapis.com' (OS Error: No such host is known.
+, errno = 11001)
+[8:40:55 AM] [FlutterDaemon] [Info] ==> [{"id":"10","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[8:40:55 AM] [FlutterDaemon] [Info] <== [{"id":"10","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[8:40:55 AM] [FlutterDaemon] [Info] ==> [{"id":"11","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[8:40:55 AM] [FlutterDaemon] [Info] <== [{"id":"11","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[9:41:37 AM] [FlutterDaemon] [Info] ==> [{"id":"12","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[9:41:37 AM] [FlutterDaemon] [Info] <== [{"id":"12","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[9:41:37 AM] [FlutterDaemon] [Info] ==> [{"id":"13","method":"emulator.getEmulators"}]
+[9:41:37 AM] [FlutterDaemon] [Info] <== [{"id":"13","result":[{"id":"Pixel_3_API_30","name":"Pixel 3 API 30","category":"mobile","platformType":"android"}]}]
+[9:41:39 AM] [FlutterDaemon] [Info] ==> [{"id":"14","method":"emulator.launch","params":{"emulatorId":"Pixel_3_API_30","coldBoot":false}}]
+[9:41:42 AM] [FlutterDaemon] [Info] <== [{"id":"14"}]
+[9:41:54 AM] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"emulator-5554","name":"sdk gphone x86","platform":"android-x86","emulator":true,"category":"mobile","platformType":"android","ephemeral":true,"emulatorId":"Pixel_3_API_30","sdk":"Android 11 (API 30)","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":true,"fastStart":true,"flutterExit":true,"hardwareRendering":true,"startPaused":true}}}]
+[9:41:54 AM] [FlutterDaemon] [Info] ==> [{"id":"15","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[9:41:54 AM] [FlutterDaemon] [Info] <== [{"id":"15","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[9:42:02 AM] [FlutterDaemon] [Info] ==> [{"id":"16","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[9:42:02 AM] [FlutterDaemon] [Info] <== [{"id":"16","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[9:42:02 AM] [FlutterDaemon] [Info] ==> [{"id":"17","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[9:42:02 AM] [FlutterDaemon] [Info] <== [{"id":"17","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[9:57:00 AM] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"TGFUHMJJ8P7HAEEE","name":"vivo 1901","platform":"android-arm64","emulator":false,"category":"mobile","platformType":"android","ephemeral":true,"emulatorId":null,"sdk":"Android 11 (API 30)","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":true,"fastStart":true,"flutterExit":true,"hardwareRendering":true,"startPaused":true}}}]
+[9:57:01 AM] [FlutterDaemon] [Info] ==> [{"id":"18","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[9:57:01 AM] [FlutterDaemon] [Info] <== [{"id":"18","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[9:57:01 AM] [FlutterDaemon] [Info] ==> [{"id":"19","method":"emulator.getEmulators"}]
+[9:57:02 AM] [FlutterDaemon] [Info] <== [{"id":"19","result":[{"id":"Pixel_3_API_30","name":"Pixel 3 API 30","category":"mobile","platformType":"android"}]}]
+[9:57:08 AM] [FlutterDaemon] [Info] ==> [{"id":"20","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[9:57:08 AM] [FlutterDaemon] [Info] <== [{"id":"20","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[9:57:08 AM] [FlutterDaemon] [Info] ==> [{"id":"21","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[9:57:08 AM] [FlutterDaemon] [Info] <== [{"id":"21","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[10:03:07 AM] [FlutterDaemon] [Info] ==> [{"id":"22","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[10:03:07 AM] [FlutterDaemon] [Info] <== [{"id":"22","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[10:03:07 AM] [FlutterDaemon] [Info] ==> [{"id":"23","method":"emulator.getEmulators"}]
+[10:03:07 AM] [FlutterDaemon] [Info] <== [{"id":"23","result":[{"id":"Pixel_3_API_30","name":"Pixel 3 API 30","category":"mobile","platformType":"android"}]}]
+[10:09:15 AM] [FlutterRun] [Error] [Flutter (vivo 1901)] lib/screens/bottom_nav_bar.dart:27:9: Error: Method not found: 'WeatherApp'.
+        WeatherApp(),
+        ^^^^^^^^^^
+[10:09:16 AM] [FlutterRun] [Error] [Flutter (Pixel 3 API 30)] lib/screens/bottom_nav_bar.dart:27:9: Error: Method not found: 'WeatherApp'.
+        WeatherApp(),
+[10:09:16 AM] [FlutterRun] [Error] [Flutter (Pixel 3 API 30)]         ^^^^^^^^^^
+[10:32:36 AM] [FlutterRun] [Error] [Flutter (Pixel 3 API 30)] lib/screens/weather_app/weather_app.dart:13:9: Error: Expected an identifier, but got ','.
+Try inserting an identifier before ','.
+        ,
+        ^
+[10:36:16 AM] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"error","message":"Error 1 retrieving device properties for vivo 1901:"}}]
+[10:36:16 AM] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"error","message":"adb.exe: device 'TGFUHMJJ8P7HAEEE' not found\r\n"}}]
+[10:36:16 AM] [FlutterDaemon] [Info] <== [{"event":"device.removed","params":{"id":"TGFUHMJJ8P7HAEEE","name":"vivo 1901","platform":"android-arm","emulator":false,"category":"mobile","platformType":"android","ephemeral":true,"emulatorId":null,"sdk":"Android null (API null)","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":true,"fastStart":true,"flutterExit":true,"hardwareRendering":true,"startPaused":true}}}]
+[10:36:36 AM] [FlutterDaemon] [Info] ==> [{"id":"24","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[10:36:36 AM] [FlutterDaemon] [Info] <== [{"id":"24","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[10:36:36 AM] [FlutterDaemon] [Info] ==> [{"id":"25","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[10:36:36 AM] [FlutterDaemon] [Info] <== [{"id":"25","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[10:48:54 AM] [FlutterDaemon] [Info] ==> [{"id":"26","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[10:48:54 AM] [FlutterDaemon] [Info] <== [{"id":"26","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[10:48:54 AM] [FlutterDaemon] [Info] ==> [{"id":"27","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[10:48:54 AM] [FlutterDaemon] [Info] <== [{"id":"27","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[10:50:29 AM] [General] [Error] Canceled
+Canceled: Canceled
+    at e.RawDebugSession.P (vscode-file://vscode-app/c:/Users/User/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:897:44584)
+    at vscode-file://vscode-app/c:/Users/User/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:897:44511
+[10:50:36 AM] [FlutterDaemon] [Info] ==> [{"id":"28","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[10:50:36 AM] [FlutterDaemon] [Info] <== [{"id":"28","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[10:50:36 AM] [FlutterDaemon] [Info] ==> [{"id":"29","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[10:50:36 AM] [FlutterDaemon] [Info] <== [{"id":"29","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[11:53:37 AM] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"TGFUHMJJ8P7HAEEE","name":"vivo 1901","platform":"android-arm64","emulator":false,"category":"mobile","platformType":"android","ephemeral":true,"emulatorId":null,"sdk":"Android 11 (API 30)","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":true,"fastStart":true,"flutterExit":true,"hardwareRendering":true,"startPaused":true}}}]
+[11:53:51 AM] [FlutterDaemon] [Info] ==> [{"id":"30","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[11:53:51 AM] [FlutterDaemon] [Info] <== [{"id":"30","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[11:53:51 AM] [FlutterDaemon] [Info] ==> [{"id":"31","method":"emulator.getEmulators"}]
+[11:53:51 AM] [FlutterDaemon] [Info] <== [{"id":"31","result":[{"id":"Pixel_3_API_30","name":"Pixel 3 API 30","category":"mobile","platformType":"android"}]}]
+[11:54:06 AM] [FlutterDaemon] [Info] ==> [{"id":"32","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[11:54:06 AM] [FlutterDaemon] [Info] <== [{"id":"32","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[11:54:06 AM] [FlutterDaemon] [Info] ==> [{"id":"33","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[11:54:06 AM] [FlutterDaemon] [Info] <== [{"id":"33","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[11:56:33 AM] [FlutterDaemon] [Info] ==> [{"id":"34","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[11:56:33 AM] [FlutterDaemon] [Info] <== [{"id":"34","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[11:56:33 AM] [FlutterDaemon] [Info] ==> [{"id":"35","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[11:56:33 AM] [FlutterDaemon] [Info] <== [{"id":"35","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[11:57:29 AM] [FlutterDaemon] [Info] ==> [{"id":"36","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[11:57:29 AM] [FlutterDaemon] [Info] <== [{"id":"36","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[11:57:29 AM] [FlutterDaemon] [Info] ==> [{"id":"37","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[11:57:29 AM] [FlutterDaemon] [Info] <== [{"id":"37","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[11:59:09 AM] [FlutterDaemon] [Info] ==> [{"id":"38","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[11:59:09 AM] [FlutterDaemon] [Info] <== [{"id":"38","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[11:59:09 AM] [FlutterDaemon] [Info] ==> [{"id":"39","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[11:59:09 AM] [FlutterDaemon] [Info] <== [{"id":"39","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[12:00:35 PM] [FlutterDaemon] [Info] ==> [{"id":"40","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[12:00:35 PM] [FlutterDaemon] [Info] <== [{"id":"40","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[12:00:35 PM] [FlutterDaemon] [Info] ==> [{"id":"41","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[12:00:36 PM] [FlutterDaemon] [Info] <== [{"id":"41","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[12:03:25 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] Note: C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\geocoding_android-2.1.0\android\src\main\java\com\baseflow\geocoding\Geocoding.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+[12:03:36 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] Note: C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_android-4.1.7\android\src\main\java\com\baseflow\geolocator\location\FusedLocationClient.java uses or overrides a deprecated API.
+[12:03:36 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] Note: Recompile with -Xlint:deprecation for details.
+[12:04:30 PM] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"error","message":"Error 1 retrieving device properties for vivo 1901:"}}]
+[12:04:30 PM] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"error","message":"adb.exe: device 'TGFUHMJJ8P7HAEEE' not found\r\n"}}]
+[12:04:30 PM] [FlutterDaemon] [Info] <== [{"event":"device.removed","params":{"id":"TGFUHMJJ8P7HAEEE","name":"vivo 1901","platform":"android-arm","emulator":false,"category":"mobile","platformType":"android","ephemeral":true,"emulatorId":null,"sdk":"Android null (API null)","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":true,"fastStart":true,"flutterExit":true,"hardwareRendering":true,"startPaused":true}}}]
+[12:04:31 PM] [FlutterDaemon] [Info] ==> [{"id":"42","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[12:04:31 PM] [FlutterDaemon] [Info] <== [{"id":"42","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[12:04:39 PM] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"TGFUHMJJ8P7HAEEE","name":"vivo 1901","platform":"android-arm64","emulator":false,"category":"mobile","platformType":"android","ephemeral":true,"emulatorId":null,"sdk":"Android 11 (API 30)","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":true,"fastStart":true,"flutterExit":true,"hardwareRendering":true,"startPaused":true}}}]
+[12:04:45 PM] [FlutterDaemon] [Info] ==> [{"id":"43","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[12:04:45 PM] [FlutterDaemon] [Info] <== [{"id":"43","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[12:04:45 PM] [FlutterDaemon] [Info] ==> [{"id":"44","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\User\\Desktop\\appcom_task"}}]
+[12:04:45 PM] [FlutterDaemon] [Info] <== [{"id":"44","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[12:16:25 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] lib/view/weather_app/weather_app.dart:291:31: Error: The method 'MoreDetialsWidgets' isn't defined for the class 'WeatherScreen'.
+ - 'WeatherScreen' is from 'package:appcom_task/view/weather_app/weather_app.dart' ('lib/view/weather_app/weather_app.dart').
+Try correcting the name to the name of an existing method, or defining a method named 'MoreDetialsWidgets'.
+                              MoreDetialsWidgets(
+                              ^^^^^^^^^^^^^^^^^^
+[12:16:25 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] lib/view/weather_app/weather_app.dart:301:31: Error: The method 'MoreDetialsWidgets' isn't defined for the class 'WeatherScreen'.
+[12:16:25 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]  - 'WeatherScreen' is from 'package:appcom_task/view/weather_app/weather_app.dart' ('lib/view/weather_app/weather_app.dart').
+Try correcting the name to the name of an existing method, or defining a method named 'MoreDetialsWidgets'.
+                              MoreDetialsWidgets(
+                              ^^^^^^^^^^^^^^^^^^
+[12:16:25 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] lib/view/weather_app/weather_app.dart:309:31: Error: The method 'MoreDetialsWidgets' isn't defined for the class 'WeatherScreen'.
+[12:16:25 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]  - 'WeatherScreen' is from 'package:appcom_task/view/weather_app/weather_app.dart' ('lib/view/weather_app/weather_app.dart').
+Try correcting the name to the name of an existing method, or defining a method named 'MoreDetialsWidgets'.
+                              MoreDetialsWidgets(
+[12:16:25 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]                               ^^^^^^^^^^^^^^^^^^
+[12:16:25 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] lib/view/weather_app/weather_app.dart:318:31: Error: The method 'MoreDetialsWidgets' isn't defined for the class 'WeatherScreen'.
+[12:16:25 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]  - 'WeatherScreen' is from 'package:appcom_task/view/weather_app/weather_app.dart' ('lib/view/weather_app/weather_app.dart').
+Try correcting the name to the name of an existing method, or defining a method named 'MoreDetialsWidgets'.
+[12:16:25 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]                               MoreDetialsWidgets(
+                              ^^^^^^^^^^^^^^^^^^
+[12:16:25 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] lib/view/weather_app/weather_app.dart:327:31: Error: The method 'MoreDetialsWidgets' isn't defined for the class 'WeatherScreen'.
+[12:16:25 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]  - 'WeatherScreen' is from 'package:appcom_task/view/weather_app/weather_app.dart' ('lib/view/weather_app/weather_app.dart').
+[12:16:25 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] Try correcting the name to the name of an existing method, or defining a method named 'MoreDetialsWidgets'.
+[12:16:25 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]                               MoreDetialsWidgets(
+[12:16:25 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]                               ^^^^^^^^^^^^^^^^^^
+[12:16:25 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] lib/view/weather_app/weather_app.dart:335:31: Error: The method 'MoreDetialsWidgets' isn't defined for the class 'WeatherScreen'.
+[12:16:25 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]  - 'WeatherScreen' is from 'package:appcom_task/view/weather_app/weather_app.dart' ('lib/view/weather_app/weather_app.dart').
+Try correcting the name to the name of an existing method, or defining a method named 'MoreDetialsWidgets'.
+[12:16:25 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]                               MoreDetialsWidgets(
+[12:16:25 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]                               ^^^^^^^^^^^^^^^^^^
+[12:17:18 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] lib/view/weather_app/weather_app.dart:335:45: Error: Too many positional arguments: 0 allowed, but 1 found.
+[12:17:18 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] Try removing the extra positional arguments.
+                              DetialsWidgets(
+                                            ^
+lib/view/weather_app/widget/details_widget.dart:4:9: Context: Found this candidate, but the arguments don't match.
+[12:17:18 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]   const DetialsWidgets({
+        ^^^^^^^^^^^^^^
+[12:17:55 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] lib/view/weather_app/weather_app.dart:335:45: Error: Too many positional arguments: 0 allowed, but 1 found.
+[12:17:55 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] Try removing the extra positional arguments.
+                              DetialsWidgets(
+                                            ^
+lib/view/weather_app/widget/details_widget.dart:4:9: Context: Found this candidate, but the arguments don't match.
+[12:17:55 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]   const DetialsWidgets({
+        ^^^^^^^^^^^^^^
+[12:18:01 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] lib/view/weather_app/weather_app.dart:335:45: Error: Too many positional arguments: 0 allowed, but 1 found.
+[12:18:01 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] Try removing the extra positional arguments.
+                              DetialsWidgets(
+[12:18:01 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]                                             ^
+lib/view/weather_app/widget/details_widget.dart:4:9: Context: Found this candidate, but the arguments don't match.
+[12:18:01 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]   const DetialsWidgets({
+        ^^^^^^^^^^^^^^
+[12:28:01 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] lib/view/weather_app/weather_app.dart:139:37: Error: Required named parameter 'color' must be provided.
+[12:28:01 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]                           CommonCard(
+                                    ^
+lib/view/weather_app/widget/card.dart:4:9: Context: Found this candidate, but the arguments don't match.
+[12:28:01 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]   const CommonCard({
+        ^^^^^^^^^^
+[12:28:01 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] lib/view/weather_app/weather_app.dart:145:37: Error: Required named parameter 'color' must be provided.
+[12:28:01 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]                           CommonCard(
+                                    ^
+lib/view/weather_app/widget/card.dart:4:9: Context: Found this candidate, but the arguments don't match.
+[12:28:01 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]   const CommonCard({
+        ^^^^^^^^^^
+lib/view/weather_app/weather_app.dart:151:37: Error: Required named parameter 'color' must be provided.
+[12:28:01 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]                           CommonCard(
+                                    ^
+lib/view/weather_app/widget/card.dart:4:9: Context: Found this candidate, but the arguments don't match.
+  const CommonCard({
+[12:28:01 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]         ^^^^^^^^^^
+[12:36:49 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] lib/view/weather_app/weather_app.dart:140:27: Error: The method 'CircleAvatarWidget' isn't defined for the class 'WeatherScreen'.
+[12:36:49 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]  - 'WeatherScreen' is from 'package:appcom_task/view/weather_app/weather_app.dart' ('lib/view/weather_app/weather_app.dart').
+[12:36:49 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] Try correcting the name to the name of an existing method, or defining a method named 'CircleAvatarWidget'.
+                          CircleAvatarWidget(
+[12:36:49 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]                           ^^^^^^^^^^^^^^^^^^
+[12:36:49 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] lib/view/weather_app/weather_app.dart:146:27: Error: The method 'CircleAvatarWidget' isn't defined for the class 'WeatherScreen'.
+[12:36:49 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]  - 'WeatherScreen' is from 'package:appcom_task/view/weather_app/weather_app.dart' ('lib/view/weather_app/weather_app.dart').
+[12:36:49 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] Try correcting the name to the name of an existing method, or defining a method named 'CircleAvatarWidget'.
+                          CircleAvatarWidget(
+[12:36:49 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]                           ^^^^^^^^^^^^^^^^^^
+[12:36:49 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] lib/view/weather_app/weather_app.dart:152:27: Error: The method 'CircleAvatarWidget' isn't defined for the class 'WeatherScreen'.
+[12:36:49 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]  - 'WeatherScreen' is from 'package:appcom_task/view/weather_app/weather_app.dart' ('lib/view/weather_app/weather_app.dart').
+[12:36:49 PM] [FlutterRun] [Error] [Flutter (vivo 1901)] Try correcting the name to the name of an existing method, or defining a method named 'CircleAvatarWidget'.
+                          CircleAvatarWidget(
+[12:36:49 PM] [FlutterRun] [Error] [Flutter (vivo 1901)]                           ^^^^^^^^^^^^^^^^^^
