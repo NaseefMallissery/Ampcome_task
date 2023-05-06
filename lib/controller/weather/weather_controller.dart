@@ -39,7 +39,6 @@ class WeatherController extends ChangeNotifier {
   }
 
   void getLocation() async {
-    isLoading=true;
     Position position = await Geolocator.getCurrentPosition(
         desiredAccuracy: LocationAccuracy.low);
     lat = position.latitude;

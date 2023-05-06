@@ -1,5 +1,7 @@
+import 'package:appcom_task/controller/weather/weather_controller.dart';
 import 'package:appcom_task/view/demo_pages/demo_pages.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 import '../home_page/home_screen.dart';
 import '../weather_app/weather_app.dart';
@@ -12,6 +14,7 @@ class NavBar extends StatefulWidget {
 }
 
 class _NavBarState extends State<NavBar> {
+
   var tabIndex = 0;
   void changeTabIndex(int index) {
     setState(() {
@@ -21,6 +24,11 @@ class _NavBarState extends State<NavBar> {
 
   @override
   Widget build(BuildContext context) {
+      final provider = Provider.of<WeatherController>(context, listen: false);
+    WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
+      provider.getWeather();
+      provider.getLocation();
+    });
     return Scaffold(
       body: IndexedStack(index: tabIndex, children: const [
         HomeScreen(),

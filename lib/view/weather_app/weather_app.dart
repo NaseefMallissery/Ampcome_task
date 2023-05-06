@@ -3,7 +3,7 @@ import 'package:appcom_task/view/widgets/loading_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'widget/avatart.dart';
+import 'widget/custom_tile.dart';
 import 'widget/details_widget.dart';
 
 class WeatherScreen extends StatelessWidget {
@@ -13,8 +13,8 @@ class WeatherScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final provider = Provider.of<WeatherController>(context, listen: false);
     WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
-      // provider.history();
       provider.getWeather();
+      provider.getLocation();
     });
 
     return Consumer<WeatherController>(
@@ -22,10 +22,10 @@ class WeatherScreen extends StatelessWidget {
         return Scaffold(
           backgroundColor: Colors.white,
           appBar: AppBar(
-            title: const Text('Weather App'),
-            centerTitle: true,
+            title: const Text('Weather'),
             backgroundColor: Colors.black,
-           
+            centerTitle: true,
+          
           ),
           body: homeController.isLoading == true ||
                   homeController.isLoading2 == true ||
@@ -196,8 +196,9 @@ class WeatherScreen extends StatelessWidget {
                     ],
                   ),
                 ),
-                floatingActionButton: FloatingActionButton.extended(onPressed: 
-                (){ homeController.getLocation();},label: const Icon(Icons.restart_alt),),
+                // floatingActionButton: FloatingActionButton.extended( onPressed: () {
+                //   homeController.getLocation();
+                // }, label: const Icon(Icons.restart_alt),),
         );
       },
     );

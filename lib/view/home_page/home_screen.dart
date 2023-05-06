@@ -1,7 +1,9 @@
+import 'package:appcom_task/controller/weather/weather_controller.dart';
 import 'package:appcom_task/view/home_page/widgets/ccotainer.dart';
 import 'package:appcom_task/view/home_page/widgets/custom_review_container.dart';
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
+import 'package:provider/provider.dart';
 
 import 'widgets/custom_button.dart';
 import 'widgets/digit_tool.dart';
@@ -13,6 +15,11 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final width = MediaQuery.of(context).size.width;
     final height = MediaQuery.of(context).size.height;
+      final provider = Provider.of<WeatherController>(context, listen: false);
+    WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
+      provider.getWeather();
+      provider.getLocation();
+    });
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
