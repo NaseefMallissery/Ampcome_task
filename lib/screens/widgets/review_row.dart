@@ -29,23 +29,23 @@ class ReviewRow extends StatelessWidget {
             ),
           ),
         ),
-        const SizedBox(
-          width: 10,
+         SizedBox(
+          width: MediaQuery.of(context).size.width*0.01,
         ),
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
               rating,
-              style: const TextStyle(
-                fontSize: 20,
+              style:  TextStyle(
+                fontSize: MediaQuery.of(context).size.width*0.05,
                 fontWeight: FontWeight.bold,
               ),
             ),
             Text(
               "$reviews reviews",
-              style: const TextStyle(
-                fontSize: 16,
+              style:  TextStyle(
+                fontSize:MediaQuery.of(context).size.width*0.03,
                 color: Colors.green,
                 fontWeight: FontWeight.w500,
               ),

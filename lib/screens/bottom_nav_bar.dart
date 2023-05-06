@@ -79,10 +79,10 @@ class _NavBarState extends State<NavBar> {
           0,
         ),
         onPressed: () {
-         Navigator.push(
-    context,
-    MaterialPageRoute(builder: (context) => const DemoPage3()),
-  );
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => const DemoPage3()),
+          );
         },
         child: const Icon(Icons.favorite),
       ),

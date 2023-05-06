@@ -10,7 +10,7 @@ class CatoCatainer extends StatelessWidget {
     final height = MediaQuery.of(context).size.height;
 
     return Container(
-      height: height*0.12,
+      height: height*0.18,
       width: width*0.28,
       decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(10.0), color: Colors.black12),
@@ -21,11 +21,16 @@ class CatoCatainer extends StatelessWidget {
           children: [
             Icon(
               icon,
-              size: width*0.1,
+              size: width*0.084,
             ),
-            Text(
-              text,
-              style: const TextStyle(fontWeight: FontWeight.w500),
+            SizedBox(
+              width: width*01,
+              child: Center(
+                child: Text(
+                  text,
+                  style:  TextStyle(fontWeight: FontWeight.w500,fontSize: width*0.05),
+                ),
+              ),
             )
           ],
         ),

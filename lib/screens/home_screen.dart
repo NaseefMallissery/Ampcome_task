@@ -27,25 +27,25 @@ class HomeScreen extends StatelessWidget {
             )),
         backgroundColor: Colors.white,
         title: SizedBox(
-            height: 100,
-            width: 60,
+            height: height*0.078,
+            width: width*0.145,
             child: Image.asset(
               "asset/logo.jpeg",
             )),
       ),
       body: SingleChildScrollView(
         child: Padding(
-          padding: const EdgeInsets.all(8.0),
+          padding:  EdgeInsets.all(width*0.02),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               CarouselSlider(
                 items: [
                   Container(
-                    height: 200,
+                    height: height*0.2,
 
                     width: double.maxFinite,
-                    margin: const EdgeInsets.all(8.0),
+                    // margin: const EdgeInsets.all(8.0),
                     decoration: BoxDecoration(
                       color: Colors.black,
                       borderRadius: BorderRadius.circular(10.0),
@@ -58,7 +58,7 @@ class HomeScreen extends StatelessWidget {
                   ),
                 ],
                 options: CarouselOptions(
-                  height: 150.0,
+                  height: height*0.2,
                   enlargeCenterPage: true,
                   autoPlay: true,
                   aspectRatio: 4 / 2,
@@ -70,13 +70,16 @@ class HomeScreen extends StatelessWidget {
               const SizedBox(
                 height: 20,
               ),
-              const Text(
-                "Protect what you Love Today!",
-                style: TextStyle(
-                    color: Colors.black,
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold),
-              ),
+               SizedBox(
+                height: height*0.04,
+                 child: Text(
+                  "Protect what you Love Today!",
+                  style: TextStyle(
+                      color: Colors.black,
+                      fontSize: height*0.03,
+                      fontWeight: FontWeight.bold),
+                             ),
+               ),
               const SizedBox(
                 height: 10,
               ),
@@ -120,13 +123,17 @@ class HomeScreen extends StatelessWidget {
               const SizedBox(
                 height: 30,
               ),
-              const Text(
+                SizedBox(
+                height: height*0.04,
+                 child: Text(
                 "We're Loved by our Customers",
-                style: TextStyle(
-                    fontSize: 25,
-                    fontWeight: FontWeight.w600,
-                    color: Colors.black),
-              ),
+                  style: TextStyle(
+                      color: Colors.black,
+                      fontSize: height*0.03,
+                      fontWeight: FontWeight.bold),
+                             ),
+               ),
+            
               const SizedBox(
                 height: 20,
               ),
@@ -134,13 +141,17 @@ class HomeScreen extends StatelessWidget {
               const SizedBox(
                 height: 25,
               ),
-              const Text(
+               SizedBox(
+                height: height*0.04,
+                 child: Text(
                 "Our Wellness Benifits",
-                style: TextStyle(
-                    color: Colors.black,
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold),
-              ),
+                  style: TextStyle(
+                      color: Colors.black,
+                      fontSize: height*0.03,
+                      fontWeight: FontWeight.bold),
+                             ),
+               ),
+           
               const SizedBox(
                 height: 25,
               ),
@@ -283,13 +294,17 @@ class HomeScreen extends StatelessWidget {
               SizedBox(
                 height: height * 0.05,
               ),
-              const Text(
+                 SizedBox(
+                height: height*0.04,
+                 child: Text(
                 "Quick Services",
-                style: TextStyle(
-                    color: Colors.black,
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold),
-              ),
+                  style: TextStyle(
+                      color: Colors.black,
+                      fontSize: height*0.03,
+                      fontWeight: FontWeight.bold),
+                             ),
+               ),
+         
               SizedBox(
                 height: height * 0.03,
               ),
@@ -381,72 +396,94 @@ class HomeScreen extends StatelessWidget {
               SizedBox(
                 height: height * 0.05,
               ),
-              const Text(
-                "Do more with Digit Tools",
-                style: TextStyle(
-                    color: Colors.black,
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold),
-              ),
+                    SizedBox(
+                height: height*0.04,
+                 child: Text(
+                        "Do more with Digit Tools",
+                  style: TextStyle(
+                      color: Colors.black,
+                      fontSize:height*0.03,
+                      fontWeight: FontWeight.bold),
+                             ),
+               ),
+         
+          
               SizedBox(
                 height: height * 0.03,
               ),
               InkWell(
                 onTap: () {},
                 child: Container(
-                  height: height * .4,
+                  height: height * .5,
                   width: width * 1,
                   decoration: BoxDecoration(
                     color: Colors.black,
                     borderRadius: BorderRadius.circular(10.0),
                   ),
                   child: Padding(
-                    padding: const EdgeInsets.only(top: 20, left: 13),
+                    padding:  EdgeInsets.symmetric(horizontal: width*0.025,vertical: height*0.023),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        const Text(
-                          "Check Credit\n Score",
-                          style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 30,
-                              fontWeight: FontWeight.bold),
+                        SizedBox(
+                          height: height*0.16,
+                          child:  Text(
+                            "Check Credit\nScore",
+                            style: TextStyle(
+                                color: Colors.white,
+                                fontSize: height*0.057,
+                                fontWeight: FontWeight.bold),
+                          ),
                         ),
-                        const Text(
-                          "Unlock exclusive discount on\n Digit Health Insurence",
-                          style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 15,
-                              fontWeight: FontWeight.w500),
+                        SizedBox(
+                          height: height*0.07,
+                          child:  Text(
+                            "Unlock exclusive discount on\n Digit Health Insurence",
+                            style: TextStyle(
+                                color: Colors.white,
+                                fontSize: height*0.027,
+                                fontWeight: FontWeight.w500),
+                          ),
                         ),
-                        Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: [
-                            Row(
-                              children: const [
-                                Text(
-                                  "Chech Now",
-                                  style: TextStyle(
-                                      color: Color.fromARGB(255, 255, 174, 0),
-                                      fontSize: 30,
-                                      fontWeight: FontWeight.bold),
+                        SizedBox(height: height*0.16,
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              SizedBox(
+                                child: SizedBox(
+                                  height: height*0.15,
+                                  width: width*0.58,
+                                  child: Row(
+                                    children:  [
+                                       Text(
+                                        "Chech Now",
+                                        style: TextStyle(
+                                            color: const Color.fromARGB(255, 255, 174, 0),
+                                            fontSize:height*0.04,
+                                            fontWeight: FontWeight.bold),
+                                      ),
+                                      Icon(Icons.arrow_forward_rounded,
+                                          color: const Color.fromARGB(
+                                            255,
+                                            255,
+                                            174,
+                                            0,
+                                          ),size: height*.065,)
+                                    ],
+                                  ),
                                 ),
-                                Icon(Icons.arrow_forward_rounded,
-                                    color: Color.fromARGB(
-                                      255,
-                                      255,
-                                      174,
-                                      0,
-                                    ))
-                              ],
-                            ),
-                            const Icon(
-                              Icons.credit_card,
-                              color: Colors.white,
-                              size: 100,
-                            )
-                          ],
+                              ),
+                               SizedBox(
+                                width: width*0.26,
+                                 child: Icon(
+                                  Icons.credit_card,
+                                  color: Colors.white,
+                                  size: height*0.13,
+                                                             ),
+                               )
+                            ],
+                          ),
                         ),
                       ],
                     ),
@@ -471,7 +508,7 @@ class HomeScreen extends StatelessWidget {
                       DigitToolCotainer(
                           height: height,
                           width: width,
-                          text1: "Vehicle Owner\nRegistration deatails",
+                          text1: "Vehicle Owner\nInfo",
                           text2: "Get vehicle\nRegistration details",
                           icon: Icons.credit_card),
                     ],
